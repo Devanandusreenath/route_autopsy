@@ -1,0 +1,13 @@
+{
+ "configured": false,
+ "provider": "meta_model_api",
+ "supportedProvider": true,
+ "model": null,
+ "maxUploadBytes": 10485760,
+ "acceptedTypes": [
+  "image/jpeg",
+  "image/png",
+  "image/webp"
+ ],
+ "message": "Image analysis is not configured: set META_API_KEY and META_MODEL on the server."
+}

@@ -1,0 +1,4230 @@
+{
+ "analysisId": "ra-19bd6c9a5201",
+ "generatedAt": "2026-11-01T15:22:58.294457+00:00",
+ "persisted": false,
+ "baseline": {
+  "route": {
+   "routeId": "VYT-KKD-S6_S13",
+   "origin": "Vyttila Hub",
+   "destination": "Kakkanad",
+   "originId": "VYT",
+   "destinationId": "KKD",
+   "distanceKm": 10.08,
+   "durationMin": 20.1,
+   "segments": [
+    {
+     "id": "S6",
+     "name": "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "distanceKm": 5.11,
+     "riskLevel": "medium",
+     "note": "Severity 2 damaged surface reported (unverified)."
+    },
+    {
+     "id": "S13",
+     "name": "Civil Line Rd",
+     "distanceKm": 4.97,
+     "riskLevel": "high",
+     "note": "Severity 5 pothole reported on Civil Line Rd (verified)."
+    }
+   ],
+   "vehicle": {
+    "id": "veh-ecomet",
+    "name": "Ashok Leyland Ecomet 2022 1615 HE",
+    "type": "Heavy truck",
+    "category": "heavy_truck",
+    "make": "Ashok Leyland",
+    "model": "Ecomet",
+    "year": 2022,
+    "variant": "1615 HE",
+    "lengthM": 8.6,
+    "widthM": 2.5,
+    "heightM": 3.3,
+    "grossVehicleWeightKg": 16200.0,
+    "currentLoadedWeightKg": 14000.0,
+    "specStatus": {
+     "lengthM": "estimated",
+     "widthM": "estimated",
+     "heightM": "estimated",
+     "grossVehicleWeightKg": "estimated",
+     "currentLoadedWeightKg": "user_confirmed"
+    },
+    "verificationStatus": "estimated",
+    "unknownSpecs": [],
+    "sources": [],
+    "isIllustrative": true,
+    "notes": "Illustrative catalogue entry \u2014 not an official specification.",
+    "updatedAt": "2026-10-09T18:00:00+00:00",
+    "lastVerifiedAt": null
+   },
+   "suitabilityStatus": "suitable",
+   "recommended": true,
+   "recommendationStatus": "recommended",
+   "explanation": "Route A (via NH 66 Bypass (Vyttila\u2013Palarivattom), Civil Line Rd) is recommended and is the fastest option, with 2 known hazards (1 severe). Estimated 20 min.",
+   "warnings": [
+    {
+     "level": "info",
+     "message": "Severity 5 pothole reported on Civil Line Rd (verified).",
+     "segmentId": "S13",
+     "restrictionId": null,
+     "defectId": "D6"
+    }
+   ],
+   "missingData": [],
+   "alternatives": [
+    {
+     "routeId": "VYT-KKD-S6_S13",
+     "label": "Route A",
+     "segmentIds": [
+      "S6",
+      "S13"
+     ],
+     "segments": [
+      {
+       "id": "S6",
+       "name": "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+       "distanceKm": 5.11,
+       "riskLevel": "medium",
+       "note": "Severity 2 damaged surface reported (unverified)."
+      },
+      {
+       "id": "S13",
+       "name": "Civil Line Rd",
+       "distanceKm": 4.97,
+       "riskLevel": "high",
+       "note": "Severity 5 pothole reported on Civil Line Rd (verified)."
+      }
+     ],
+     "distanceKm": 10.08,
+     "durationMin": 20.1,
+     "suitabilityStatus": "suitable",
+     "recommended": true,
+     "isFastestCandidate": true,
+     "rank": 1,
+     "scoreSeconds": 1804,
+     "scoreBreakdown": {
+      "travelSeconds": 1204,
+      "severeDefectPenaltySeconds": 600,
+      "surfacePenaltySeconds": 0
+     },
+     "severeHazardCount": 1,
+     "warnings": [
+      {
+       "level": "info",
+       "message": "Severity 5 pothole reported on Civil Line Rd (verified).",
+       "segmentId": "S13",
+       "restrictionId": null,
+       "defectId": "D6"
+      }
+     ],
+     "missingData": [],
+     "rejectionReasons": [],
+     "explanation": "Route A (via NH 66 Bypass (Vyttila\u2013Palarivattom), Civil Line Rd) is recommended and is the fastest option, with 2 known hazards (1 severe). Estimated 20 min.",
+     "geometry": [
+      [
+       9.9667,
+       76.3186
+      ],
+      [
+       9.97304,
+       76.31757416666666
+      ],
+      [
+       9.979302294734195,
+       76.31630516944121
+      ],
+      [
+       9.98543,
+       76.314615
+      ],
+      [
+       9.991402294734195,
+       76.31243850277454
+      ],
+      [
+       9.99724,
+       76.30984083333333
+      ],
+      [
+       10.003,
+       76.307
+      ],
+      [
+       10.003754,
+       76.31333266666667
+      ],
+      [
+       10.004882057072635,
+       76.31952707155004
+      ],
+      [
+       10.006658000000002,
+       76.325482
+      ],
+      [
+       10.009182057072634,
+       76.33116040488336
+      ],
+      [
+       10.012354,
+       76.33659933333334
+      ],
+      [
+       10.0159,
+       76.3419
+      ]
+     ]
+    },
+    {
+     "routeId": "VYT-KKD-S12",
+     "label": "Route B",
+     "segmentIds": [
+      "S12"
+     ],
+     "segments": [
+      {
+       "id": "S12",
+       "name": "Thammanam\u2013Kakkanad Link (rail underpass)",
+       "distanceKm": 7.48,
+       "riskLevel": "high",
+       "note": "Thammanam\u2013Kakkanad Link (rail underpass) is narrow (5.5 m demo value) for a 2.5 m wide vehicle \u2014 passing may be difficult. Height limit 3.2 m on Thammanam\u2013Kakkanad Link (rail underpass); your vehicle is 3.30 m. Vehicle is not permitted / cannot pass. Width limit 2.3 m on Thammanam\u2013Kakkanad Link (rail underpass); your vehicle is 2.50 m. Vehicle is not permitted / cannot pass. Severity 4 waterlogging reported on Thammanam\u2013Kakkanad Link (rail underpass) (unverified). Poor surface condition (demo value)."
+      }
+     ],
+     "distanceKm": 7.49,
+     "durationMin": 23.6,
+     "suitabilityStatus": "unsuitable",
+     "recommended": false,
+     "isFastestCandidate": false,
+     "rank": 9,
+     "scoreSeconds": 3814,
+     "scoreBreakdown": {
+      "travelSeconds": 1418,
+      "severeDefectPenaltySeconds": 600,
+      "surfacePenaltySeconds": 1796
+     },
+     "severeHazardCount": 1,
+     "warnings": [
+      {
+       "level": "warning",
+       "message": "Thammanam\u2013Kakkanad Link (rail underpass) is narrow (5.5 m demo value) for a 2.5 m wide vehicle \u2014 passing may be difficult.",
+       "segmentId": "S12",
+       "restrictionId": null,
+       "defectId": null
+      },
+      {
+       "level": "critical",
+       "message": "Height limit 3.2 m on Thammanam\u2013Kakkanad Link (rail underpass); your vehicle is 3.30 m. Vehicle is not permitted / cannot pass.",
+       "segmentId": "S12",
+       "restrictionId": "R2",
+       "defectId": null
+      },
+      {
+       "level": "critical",
+       "message": "Width limit 2.3 m on Thammanam\u2013Kakkanad Link (rail underpass); your vehicle is 2.50 m. Vehicle is not permitted / cannot pass.",
+       "segmentId": "S12",
+       "restrictionId": "R3",
+       "defectId": null
+      },
+      {
+       "level": "info",
+       "message": "Severity 4 waterlogging reported on Thammanam\u2013Kakkanad Link (rail underpass) (unverified).",
+       "segmentId": "S12",
+       "restrictionId": null,
+       "defectId": "D3"
+      }
+     ],
+     "missingData": [],
+     "rejectionReasons": [
+      "Height limit 3.2 m on Thammanam\u2013Kakkanad Link (rail underpass); your vehicle is 3.30 m. Vehicle is not permitted / cannot pass.",
+      "Width limit 2.3 m on Thammanam\u2013Kakkanad Link (rail underpass); your vehicle is 2.50 m. Vehicle is not permitted / cannot pass."
+     ],
+     "explanation": "Route B is not usable for this vehicle: Height limit 3.2 m on Thammanam\u2013Kakkanad Link (rail underpass); your vehicle is 3.30 m. Vehicle is not permitted / cannot pass. (+1 more blocking constraint)",
+     "geometry": [
+      [
+       9.9667,
+       76.3186
+      ],
+      [
+       9.976298,
+       76.31953133333334
+      ],
+      [
+       9.985521407028981,
+       76.32125365268273
+      ],
+      [
+       9.994095999999997,
+       76.324346
+      ],
+      [
+       10.00192140702898,
+       76.32902031934938
+      ],
+      [
+       10.009098,
+       76.33506466666667
+      ],
+      [
+       10.0159,
+       76.3419
+      ]
+     ]
+    },
+    {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "label": "Route C",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "segments": [
+      {
+       "id": "S6",
+       "name": "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+       "distanceKm": 5.11,
+       "riskLevel": "medium",
+       "note": "Severity 2 damaged surface reported (unverified)."
+      },
+      {
+       "id": "S7",
+       "name": "NH 66 (Palarivattom\u2013Edappally)",
+       "distanceKm": 3.11,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S15",
+       "name": "Edappally\u2013Kakkanad Rd",
+       "distanceKm": 4.73,
+       "riskLevel": "high",
+       "note": "Severity 4 pothole reported on Edappally\u2013Kakkanad Rd (verified)."
+      }
+     ],
+     "distanceKm": 12.95,
+     "durationMin": 25.0,
+     "suitabilityStatus": "suitable",
+     "recommended": false,
+     "isFastestCandidate": false,
+     "rank": 2,
+     "scoreSeconds": 2101,
+     "scoreBreakdown": {
+      "travelSeconds": 1501,
+      "severeDefectPenaltySeconds": 600,
+      "surfacePenaltySeconds": 0
+     },
+     "severeHazardCount": 1,
+     "warnings": [
+      {
+       "level": "info",
+       "message": "Severity 4 pothole reported on Edappally\u2013Kakkanad Rd (verified).",
+       "segmentId": "S15",
+       "restrictionId": null,
+       "defectId": "D10"
+      }
+     ],
+     "missingData": [],
+     "rejectionReasons": [],
+     "explanation": "Route C has the same number of severe defects as Route A but adds approximately 5 minutes. Estimated 25 min.",
+     "geometry": [
+      [
+       9.9667,
+       76.3186
+      ],
+      [
+       9.97304,
+       76.31757416666666
+      ],
+      [
+       9.979302294734195,
+       76.31630516944121
+      ],
+      [
+       9.98543,
+       76.314615
+      ],
+      [
+       9.991402294734195,
+       76.31243850277454
+      ],
+      [
+       9.99724,
+       76.30984083333333
+      ],
+      [
+       10.003,
+       76.307
+      ],
+      [
+       10.006889,
+       76.30652366666668
+      ],
+      [
+       10.010767549981495,
+       76.30623302212369
+      ],
+      [
+       10.014628,
+       76.306264
+      ],
+      [
+       10.018467549981494,
+       76.30666635545703
+      ],
+      [
+       10.022288999999999,
+       76.30739033333334
+      ],
+      [
+       10.0261,
+       76.3083
+      ],
+      [
+       10.02272,
+       76.31339
+      ],
+      [
+       10.019790154643285,
+       76.31861665408815
+      ],
+      [
+       10.017640000000002,
+       76.32408
+      ],
+      [
+       10.016390154643284,
+       76.32981665408813
+      ],
+      [
+       10.01592,
+       76.33578999999999
+      ],
+      [
+       10.0159,
+       76.3419
+      ]
+     ]
+    },
+    {
+     "routeId": "VYT-KKD-S4_S3_S5_S13",
+     "label": "Route D",
+     "segmentIds": [
+      "S4",
+      "S3",
+      "S5",
+      "S13"
+     ],
+     "segments": [
+      {
+       "id": "S4",
+       "name": "Sahodaran Ayyappan Rd",
+       "distanceKm": 3.96,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S3",
+       "name": "Chittoor Rd",
+       "distanceKm": 1.96,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S5",
+       "name": "Banerji\u2013Kaloor Rd",
+       "distanceKm": 4.46,
+       "riskLevel": "medium",
+       "note": "Severity 2 cracked road reported (verified)."
+      },
+      {
+       "id": "S13",
+       "name": "Civil Line Rd",
+       "distanceKm": 4.97,
+       "riskLevel": "high",
+       "note": "Severity 5 pothole reported on Civil Line Rd (verified)."
+      }
+     ],
+     "distanceKm": 15.36,
+     "durationMin": 31.4,
+     "suitabilityStatus": "suitable",
+     "recommended": false,
+     "isFastestCandidate": false,
+     "rank": 3,
+     "scoreSeconds": 2485,
+     "scoreBreakdown": {
+      "travelSeconds": 1885,
+      "severeDefectPenaltySeconds": 600,
+      "surfacePenaltySeconds": 0
+     },
+     "severeHazardCount": 1,
+     "warnings": [
+      {
+       "level": "info",
+       "message": "Severity 5 pothole reported on Civil Line Rd (verified).",
+       "segmentId": "S13",
+       "restrictionId": null,
+       "defectId": "D6"
+      }
+     ],
+     "missingData": [],
+     "rejectionReasons": [],
+     "explanation": "Route D has the same number of severe defects as Route A but adds approximately 11 minutes. Estimated 31 min.",
+     "geometry": [
+      [
+       9.9667,
+       76.3186
+      ],
+      [
+       9.968267333333333,
+       76.31375866666667
+      ],
+      [
+       9.969517414822828,
+       76.30889268200764
+      ],
+      [
+       9.970218,
+       76.303984
+      ],
+      [
+       9.970284081489494,
+       76.29902601534097
+      ],
+      [
+       9.969800666666666,
+       76.29402533333334
+      ],
+      [
+       9.969,
+       76.289
+      ],
+      [
+       9.97145,
+       76.28846333333334
+      ],
+      [
+       9.97380621778265,
+       76.28775785867543
+      ],
+      [
+       9.976,
+       76.28676
+      ],
+      [
+       9.97800621778265,
+       76.28542452534211
+      ],
+      [
+       9.97985,
+       76.28379666666666
+      ],
+      [
+       9.9816,
+       76.282
+      ],
+      [
+       9.983916666666666,
+       76.28723666666666
+      ],
+      [
+       9.986568269823872,
+       76.29218662769743
+      ],
+      [
+       9.989799999999999,
+       76.29664
+      ],
+      [
+       9.993701603157204,
+       76.30051996103076
+      ],
+      [
+       9.998183333333333,
+       76.30390333333334
+      ],
+      [
+       10.003,
+       76.307
+      ],
+      [
+       10.003754,
+       76.31333266666667
+      ],
+      [
+       10.004882057072635,
+       76.31952707155004
+      ],
+      [
+       10.006658000000002,
+       76.325482
+      ],
+      [
+       10.009182057072634,
+       76.33116040488336
+      ],
+      [
+       10.012354,
+       76.33659933333334
+      ],
+      [
+       10.0159,
+       76.3419
+      ]
+     ]
+    },
+    {
+     "routeId": "VYT-KKD-S10_S11",
+     "label": "Route E",
+     "segmentIds": [
+      "S10",
+      "S11"
+     ],
+     "segments": [
+      {
+       "id": "S10",
+       "name": "Petta\u2013Thrippunithura Rd",
+       "distanceKm": 4.8,
+       "riskLevel": "high",
+       "note": "Severity 5 pothole reported on Petta\u2013Thrippunithura Rd (verified). Severity 4 pothole reported on Petta\u2013Thrippunithura Rd (verified). Severity 3 waterlogging reported (unverified). Poor surface condition (demo value)."
+      },
+      {
+       "id": "S11",
+       "name": "Seaport\u2013Airport Rd (South)",
+       "distanceKm": 9.62,
+       "riskLevel": "low",
+       "note": null
+      }
+     ],
+     "distanceKm": 14.43,
+     "durationMin": 32.1,
+     "suitabilityStatus": "suitable",
+     "recommended": false,
+     "isFastestCandidate": false,
+     "rank": 5,
+     "scoreSeconds": 4282,
+     "scoreBreakdown": {
+      "travelSeconds": 1929,
+      "severeDefectPenaltySeconds": 1200,
+      "surfacePenaltySeconds": 1153
+     },
+     "severeHazardCount": 2,
+     "warnings": [
+      {
+       "level": "info",
+       "message": "Severity 5 pothole reported on Petta\u2013Thrippunithura Rd (verified).",
+       "segmentId": "S10",
+       "restrictionId": null,
+       "defectId": "D1"
+      },
+      {
+       "level": "info",
+       "message": "Severity 4 pothole reported on Petta\u2013Thrippunithura Rd (verified).",
+       "segmentId": "S10",
+       "restrictionId": null,
+       "defectId": "D2"
+      }
+     ],
+     "missingData": [],
+     "rejectionReasons": [],
+     "explanation": "Route E passes 1 more reported severe defects than Route A but adds approximately 12 minutes. Estimated 32 min.",
+     "geometry": [
+      [
+       9.9667,
+       76.3186
+      ],
+      [
+       9.961678333333333,
+       76.32219833333333
+      ],
+      [
+       9.957033135282032,
+       76.32608739154045
+      ],
+      [
+       9.95304,
+       76.33048
+      ],
+      [
+       9.9497998019487,
+       76.33545405820712
+      ],
+      [
+       9.947211666666666,
+       76.34093166666666
+      ],
+      [
+       9.945,
+       76.3467
+      ],
+      [
+       9.957008666666667,
+       76.348736
+      ],
+      [
+       9.968965887088386,
+       76.35001209609027
+      ],
+      [
+       9.980834000000002,
+       76.34997200000001
+      ],
+      [
+       9.99259922042172,
+       76.34841209609026
+      ],
+      [
+       10.004275333333334,
+       76.345536
+      ],
+      [
+       10.0159,
+       76.3419
+      ]
+     ]
+    },
+    {
+     "routeId": "VYT-KKD-S4_S3_S5_S7_S15",
+     "label": "Route F",
+     "segmentIds": [
+      "S4",
+      "S3",
+      "S5",
+      "S7",
+      "S15"
+     ],
+     "segments": [
+      {
+       "id": "S4",
+       "name": "Sahodaran Ayyappan Rd",
+       "distanceKm": 3.96,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S3",
+       "name": "Chittoor Rd",
+       "distanceKm": 1.96,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S5",
+       "name": "Banerji\u2013Kaloor Rd",
+       "distanceKm": 4.46,
+       "riskLevel": "medium",
+       "note": "Severity 2 cracked road reported (verified)."
+      },
+      {
+       "id": "S7",
+       "name": "NH 66 (Palarivattom\u2013Edappally)",
+       "distanceKm": 3.11,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S15",
+       "name": "Edappally\u2013Kakkanad Rd",
+       "distanceKm": 4.73,
+       "riskLevel": "high",
+       "note": "Severity 4 pothole reported on Edappally\u2013Kakkanad Rd (verified)."
+      }
+     ],
+     "distanceKm": 18.23,
+     "durationMin": 36.4,
+     "suitabilityStatus": "suitable",
+     "recommended": false,
+     "isFastestCandidate": false,
+     "rank": 4,
+     "scoreSeconds": 2782,
+     "scoreBreakdown": {
+      "travelSeconds": 2182,
+      "severeDefectPenaltySeconds": 600,
+      "surfacePenaltySeconds": 0
+     },
+     "severeHazardCount": 1,
+     "warnings": [
+      {
+       "level": "info",
+       "message": "Severity 4 pothole reported on Edappally\u2013Kakkanad Rd (verified).",
+       "segmentId": "S15",
+       "restrictionId": null,
+       "defectId": "D10"
+      }
+     ],
+     "missingData": [],
+     "rejectionReasons": [],
+     "explanation": "Route F has the same number of severe defects as Route A but adds approximately 16 minutes. Estimated 36 min.",
+     "geometry": [
+      [
+       9.9667,
+       76.3186
+      ],
+      [
+       9.968267333333333,
+       76.31375866666667
+      ],
+      [
+       9.969517414822828,
+       76.30889268200764
+      ],
+      [
+       9.970218,
+       76.303984
+      ],
+      [
+       9.970284081489494,
+       76.29902601534097
+      ],
+      [
+       9.969800666666666,
+       76.29402533333334
+      ],
+      [
+       9.969,
+       76.289
+      ],
+      [
+       9.97145,
+       76.28846333333334
+      ],
+      [
+       9.97380621778265,
+       76.28775785867543
+      ],
+      [
+       9.976,
+       76.28676
+      ],
+      [
+       9.97800621778265,
+       76.28542452534211
+      ],
+      [
+       9.97985,
+       76.28379666666666
+      ],
+      [
+       9.9816,
+       76.282
+      ],
+      [
+       9.983916666666666,
+       76.28723666666666
+      ],
+      [
+       9.986568269823872,
+       76.29218662769743
+      ],
+      [
+       9.989799999999999,
+       76.29664
+      ],
+      [
+       9.993701603157204,
+       76.30051996103076
+      ],
+      [
+       9.998183333333333,
+       76.30390333333334
+      ],
+      [
+       10.003,
+       76.307
+      ],
+      [
+       10.006889,
+       76.30652366666668
+      ],
+      [
+       10.010767549981495,
+       76.30623302212369
+      ],
+      [
+       10.014628,
+       76.306264
+      ],
+      [
+       10.018467549981494,
+       76.30666635545703
+      ],
+      [
+       10.022288999999999,
+       76.30739033333334
+      ],
+      [
+       10.0261,
+       76.3083
+      ],
+      [
+       10.02272,
+       76.31339
+      ],
+      [
+       10.019790154643285,
+       76.31861665408815
+      ],
+      [
+       10.017640000000002,
+       76.32408
+      ],
+      [
+       10.016390154643284,
+       76.32981665408813
+      ],
+      [
+       10.01592,
+       76.33578999999999
+      ],
+      [
+       10.0159,
+       76.3419
+      ]
+     ]
+    },
+    {
+     "routeId": "VYT-KKD-S4_S1_S2_S5_S13",
+     "label": "Route G",
+     "segmentIds": [
+      "S4",
+      "S1",
+      "S2",
+      "S5",
+      "S13"
+     ],
+     "segments": [
+      {
+       "id": "S4",
+       "name": "Sahodaran Ayyappan Rd",
+       "distanceKm": 3.96,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S1",
+       "name": "Thoppumpady Old Bridge Rd",
+       "distanceKm": 6.39,
+       "riskLevel": "high",
+       "note": "Weight limit 10 t on Thoppumpady Old Bridge Rd; your vehicle is 14.00 t. Vehicle is not permitted / cannot pass. Severity 3 clearance issue reported (unverified)."
+      },
+      {
+       "id": "S2",
+       "name": "Willingdon Island Rd",
+       "distanceKm": 5.95,
+       "riskLevel": "medium",
+       "note": "Severity 2 obstruction reported (unverified). Restriction data incomplete for this segment. Road width unknown."
+      },
+      {
+       "id": "S5",
+       "name": "Banerji\u2013Kaloor Rd",
+       "distanceKm": 4.46,
+       "riskLevel": "medium",
+       "note": "Severity 2 cracked road reported (verified)."
+      },
+      {
+       "id": "S13",
+       "name": "Civil Line Rd",
+       "distanceKm": 4.97,
+       "riskLevel": "high",
+       "note": "Severity 5 pothole reported on Civil Line Rd (verified)."
+      }
+     ],
+     "distanceKm": 25.74,
+     "durationMin": 55.4,
+     "suitabilityStatus": "unsuitable",
+     "recommended": false,
+     "isFastestCandidate": false,
+     "rank": 10,
+     "scoreSeconds": 3923,
+     "scoreBreakdown": {
+      "travelSeconds": 3323,
+      "severeDefectPenaltySeconds": 600,
+      "surfacePenaltySeconds": 0
+     },
+     "severeHazardCount": 1,
+     "warnings": [
+      {
+       "level": "critical",
+       "message": "Weight limit 10 t on Thoppumpady Old Bridge Rd; your vehicle is 14.00 t. Vehicle is not permitted / cannot pass.",
+       "segmentId": "S1",
+       "restrictionId": "R1",
+       "defectId": null
+      },
+      {
+       "level": "info",
+       "message": "Severity 5 pothole reported on Civil Line Rd (verified).",
+       "segmentId": "S13",
+       "restrictionId": null,
+       "defectId": "D6"
+      }
+     ],
+     "missingData": [
+      "Restriction data incomplete on Willingdon Island Rd",
+      "Road width unknown on Willingdon Island Rd"
+     ],
+     "rejectionReasons": [
+      "Weight limit 10 t on Thoppumpady Old Bridge Rd; your vehicle is 14.00 t. Vehicle is not permitted / cannot pass."
+     ],
+     "explanation": "Route G is not usable for this vehicle: Weight limit 10 t on Thoppumpady Old Bridge Rd; your vehicle is 14.00 t. Vehicle is not permitted / cannot pass.",
+     "geometry": [
+      [
+       9.9667,
+       76.3186
+      ],
+      [
+       9.968267333333333,
+       76.31375866666667
+      ],
+      [
+       9.969517414822828,
+       76.30889268200764
+      ],
+      [
+       9.970218,
+       76.303984
+      ],
+      [
+       9.970284081489494,
+       76.29902601534097
+      ],
+      [
+       9.969800666666666,
+       76.29402533333334
+      ],
+      [
+       9.969,
+       76.289
+      ],
+      [
+       9.965652666666665,
+       76.28137533333333
+      ],
+      [
+       9.963059342360832,
+       76.27369922042172
+      ],
+      [
+       9.961771999999998,
+       76.26593399999999
+      ],
+      [
+       9.961992675694166,
+       76.25806588708839
+      ],
+      [
+       9.963519333333332,
+       76.25010866666666
+      ],
+      [
+       9.9658,
+       76.2421
+      ],
+      [
+       9.971425833333333,
+       76.247565
+      ],
+      [
+       9.976249828708317,
+       76.25334751979302
+      ],
+      [
+       9.979685000000002,
+       76.25967999999999
+      ],
+      [
+       9.981516495374983,
+       76.26664751979303
+      ],
+      [
+       9.981959166666666,
+       76.274165
+      ],
+      [
+       9.9816,
+       76.282
+      ],
+      [
+       9.983916666666666,
+       76.28723666666666
+      ],
+      [
+       9.986568269823872,
+       76.29218662769743
+      ],
+      [
+       9.989799999999999,
+       76.29664
+      ],
+      [
+       9.993701603157204,
+       76.30051996103076
+      ],
+      [
+       9.998183333333333,
+       76.30390333333334
+      ],
+      [
+       10.003,
+       76.307
+      ],
+      [
+       10.003754,
+       76.31333266666667
+      ],
+      [
+       10.004882057072635,
+       76.31952707155004
+      ],
+      [
+       10.006658000000002,
+       76.325482
+      ],
+      [
+       10.009182057072634,
+       76.33116040488336
+      ],
+      [
+       10.012354,
+       76.33659933333334
+      ],
+      [
+       10.0159,
+       76.3419
+      ]
+     ]
+    },
+    {
+     "routeId": "VYT-KKD-S4_S1_S2_S5_S7_S15",
+     "label": "Route H",
+     "segmentIds": [
+      "S4",
+      "S1",
+      "S2",
+      "S5",
+      "S7",
+      "S15"
+     ],
+     "segments": [
+      {
+       "id": "S4",
+       "name": "Sahodaran Ayyappan Rd",
+       "distanceKm": 3.96,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S1",
+       "name": "Thoppumpady Old Bridge Rd",
+       "distanceKm": 6.39,
+       "riskLevel": "high",
+       "note": "Weight limit 10 t on Thoppumpady Old Bridge Rd; your vehicle is 14.00 t. Vehicle is not permitted / cannot pass. Severity 3 clearance issue reported (unverified)."
+      },
+      {
+       "id": "S2",
+       "name": "Willingdon Island Rd",
+       "distanceKm": 5.95,
+       "riskLevel": "medium",
+       "note": "Severity 2 obstruction reported (unverified). Restriction data incomplete for this segment. Road width unknown."
+      },
+      {
+       "id": "S5",
+       "name": "Banerji\u2013Kaloor Rd",
+       "distanceKm": 4.46,
+       "riskLevel": "medium",
+       "note": "Severity 2 cracked road reported (verified)."
+      },
+      {
+       "id": "S7",
+       "name": "NH 66 (Palarivattom\u2013Edappally)",
+       "distanceKm": 3.11,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S15",
+       "name": "Edappally\u2013Kakkanad Rd",
+       "distanceKm": 4.73,
+       "riskLevel": "high",
+       "note": "Severity 4 pothole reported on Edappally\u2013Kakkanad Rd (verified)."
+      }
+     ],
+     "distanceKm": 28.61,
+     "durationMin": 60.4,
+     "suitabilityStatus": "unsuitable",
+     "recommended": false,
+     "isFastestCandidate": false,
+     "rank": 11,
+     "scoreSeconds": 4221,
+     "scoreBreakdown": {
+      "travelSeconds": 3621,
+      "severeDefectPenaltySeconds": 600,
+      "surfacePenaltySeconds": 0
+     },
+     "severeHazardCount": 1,
+     "warnings": [
+      {
+       "level": "critical",
+       "message": "Weight limit 10 t on Thoppumpady Old Bridge Rd; your vehicle is 14.00 t. Vehicle is not permitted / cannot pass.",
+       "segmentId": "S1",
+       "restrictionId": "R1",
+       "defectId": null
+      },
+      {
+       "level": "info",
+       "message": "Severity 4 pothole reported on Edappally\u2013Kakkanad Rd (verified).",
+       "segmentId": "S15",
+       "restrictionId": null,
+       "defectId": "D10"
+      }
+     ],
+     "missingData": [
+      "Restriction data incomplete on Willingdon Island Rd",
+      "Road width unknown on Willingdon Island Rd"
+     ],
+     "rejectionReasons": [
+      "Weight limit 10 t on Thoppumpady Old Bridge Rd; your vehicle is 14.00 t. Vehicle is not permitted / cannot pass."
+     ],
+     "explanation": "Route H is not usable for this vehicle: Weight limit 10 t on Thoppumpady Old Bridge Rd; your vehicle is 14.00 t. Vehicle is not permitted / cannot pass.",
+     "geometry": [
+      [
+       9.9667,
+       76.3186
+      ],
+      [
+       9.968267333333333,
+       76.31375866666667
+      ],
+      [
+       9.969517414822828,
+       76.30889268200764
+      ],
+      [
+       9.970218,
+       76.303984
+      ],
+      [
+       9.970284081489494,
+       76.29902601534097
+      ],
+      [
+       9.969800666666666,
+       76.29402533333334
+      ],
+      [
+       9.969,
+       76.289
+      ],
+      [
+       9.965652666666665,
+       76.28137533333333
+      ],
+      [
+       9.963059342360832,
+       76.27369922042172
+      ],
+      [
+       9.961771999999998,
+       76.26593399999999
+      ],
+      [
+       9.961992675694166,
+       76.25806588708839
+      ],
+      [
+       9.963519333333332,
+       76.25010866666666
+      ],
+      [
+       9.9658,
+       76.2421
+      ],
+      [
+       9.971425833333333,
+       76.247565
+      ],
+      [
+       9.976249828708317,
+       76.25334751979302
+      ],
+      [
+       9.979685000000002,
+       76.25967999999999
+      ],
+      [
+       9.981516495374983,
+       76.26664751979303
+      ],
+      [
+       9.981959166666666,
+       76.274165
+      ],
+      [
+       9.9816,
+       76.282
+      ],
+      [
+       9.983916666666666,
+       76.28723666666666
+      ],
+      [
+       9.986568269823872,
+       76.29218662769743
+      ],
+      [
+       9.989799999999999,
+       76.29664
+      ],
+      [
+       9.993701603157204,
+       76.30051996103076
+      ],
+      [
+       9.998183333333333,
+       76.30390333333334
+      ],
+      [
+       10.003,
+       76.307
+      ],
+      [
+       10.006889,
+       76.30652366666668
+      ],
+      [
+       10.010767549981495,
+       76.30623302212369
+      ],
+      [
+       10.014628,
+       76.306264
+      ],
+      [
+       10.018467549981494,
+       76.30666635545703
+      ],
+      [
+       10.022288999999999,
+       76.30739033333334
+      ],
+      [
+       10.0261,
+       76.3083
+      ],
+      [
+       10.02272,
+       76.31339
+      ],
+      [
+       10.019790154643285,
+       76.31861665408815
+      ],
+      [
+       10.017640000000002,
+       76.32408
+      ],
+      [
+       10.016390154643284,
+       76.32981665408813
+      ],
+      [
+       10.01592,
+       76.33578999999999
+      ],
+      [
+       10.0159,
+       76.3419
+      ]
+     ]
+    }
+   ],
+   "search": {
+    "candidatesEnumerated": 11,
+    "candidatesEvaluated": 11,
+    "truncated": false,
+    "maxDepth": 6,
+    "maxCandidates": 5000,
+    "statusCounts": {
+     "suitable": 5,
+     "warning": 3,
+     "not_validated": 0,
+     "unsuitable": 3
+    },
+    "alternativesReturned": 8
+   },
+   "disclaimer": "Illustrative Kochi pilot graph, restrictions and defects (demo data). Not surveyed, not live, and not suitable for real-world navigation. 'riskLevel' is an evidence-attention heuristic, not a probability of accident or failure."
+  },
+  "recommendedRouteId": "VYT-KKD-S6_S13",
+  "suitabilityStatus": "suitable",
+  "durationMin": 20.1,
+  "hazardPenaltySeconds": 600,
+  "restrictionWarnings": [],
+  "missingVehicleSpecs": [],
+  "unverifiedEvidence": {
+   "defects": [
+    {
+     "id": "D12",
+     "latitude": 9.978049835787356,
+     "longitude": 76.3165589688863,
+     "roadSegmentId": "S6",
+     "defectType": "damaged_surface",
+     "severity": 2,
+     "description": "Minor ravelling on service road side.",
+     "photoUrl": null,
+     "observedAt": "2026-10-02T09:30:00Z",
+     "reportedAt": "2026-10-02T10:15:00Z",
+     "verificationStatus": "unverified",
+     "maintenanceStatus": "open",
+     "independentReportCount": 1
+    }
+   ],
+   "restrictions": []
+  }
+ },
+ "baselineRecommendation": {
+  "routeId": "VYT-KKD-S6_S13",
+  "via": [
+   "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+   "Civil Line Rd"
+  ],
+  "segmentIds": [
+   "S6",
+   "S13"
+  ],
+  "durationMin": 20.1,
+  "suitabilityStatus": "suitable"
+ },
+ "scenarios": [
+  {
+   "scenarioId": "sc-01",
+   "perturbation": {
+    "type": "resolve_defect",
+    "defectId": "D1"
+   },
+   "description": "defect D1 (pothole, severity 5) is resolved",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "defect[D1].maintenanceStatus",
+     "from": "open",
+     "to": "resolved"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, defect D1 (pothole, severity 5) is resolved. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-02",
+   "perturbation": {
+    "type": "resolve_defect",
+    "defectId": "D10"
+   },
+   "description": "defect D10 (pothole, severity 4) is resolved",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": true,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S7_S15",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "Edappally\u2013Kakkanad Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S7",
+     "S15"
+    ],
+    "durationMin": 25.0,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 4.9,
+   "changedVariables": [
+    {
+     "variable": "defect[D10].maintenanceStatus",
+     "from": "open",
+     "to": "resolved"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S7_S15",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 25.0,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 12.95,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1501,
+    "segmentsRemoved": [
+     "S13"
+    ],
+    "segmentsAdded": [
+     "S7",
+     "S15"
+    ],
+    "segmentsShared": [
+     "S6"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S13",
+     "segmentIds": [
+      "S6",
+      "S13"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 1804
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 303
+   },
+   "revisedRoute": {
+    "routeId": "VYT-KKD-S6_S7_S15",
+    "label": "Route C",
+    "segmentIds": [
+     "S6",
+     "S7",
+     "S15"
+    ],
+    "segments": [
+     {
+      "id": "S6",
+      "name": "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+      "distanceKm": 5.11,
+      "riskLevel": "medium",
+      "note": "Severity 2 damaged surface reported (unverified)."
+     },
+     {
+      "id": "S7",
+      "name": "NH 66 (Palarivattom\u2013Edappally)",
+      "distanceKm": 3.11,
+      "riskLevel": "low",
+      "note": null
+     },
+     {
+      "id": "S15",
+      "name": "Edappally\u2013Kakkanad Rd",
+      "distanceKm": 4.73,
+      "riskLevel": "low",
+      "note": null
+     }
+    ],
+    "distanceKm": 12.95,
+    "durationMin": 25.0,
+    "suitabilityStatus": "suitable",
+    "recommended": true,
+    "isFastestCandidate": false,
+    "rank": 1,
+    "scoreSeconds": 1501,
+    "scoreBreakdown": {
+     "travelSeconds": 1501,
+     "severeDefectPenaltySeconds": 0,
+     "surfacePenaltySeconds": 0
+    },
+    "severeHazardCount": 0,
+    "warnings": [],
+    "missingData": [],
+    "rejectionReasons": [],
+    "explanation": "Route C (via NH 66 Bypass (Vyttila\u2013Palarivattom), NH 66 (Palarivattom\u2013Edappally)) is recommended because it passes 1 fewer reported severe defect. It is about 5 min slower than Route A. Estimated 25 min.",
+    "geometry": [
+     [
+      9.9667,
+      76.3186
+     ],
+     [
+      9.97304,
+      76.31757416666666
+     ],
+     [
+      9.979302294734195,
+      76.31630516944121
+     ],
+     [
+      9.98543,
+      76.314615
+     ],
+     [
+      9.991402294734195,
+      76.31243850277454
+     ],
+     [
+      9.99724,
+      76.30984083333333
+     ],
+     [
+      10.003,
+      76.307
+     ],
+     [
+      10.006889,
+      76.30652366666668
+     ],
+     [
+      10.010767549981495,
+      76.30623302212369
+     ],
+     [
+      10.014628,
+      76.306264
+     ],
+     [
+      10.018467549981494,
+      76.30666635545703
+     ],
+     [
+      10.022288999999999,
+      76.30739033333334
+     ],
+     [
+      10.0261,
+      76.3083
+     ],
+     [
+      10.02272,
+      76.31339
+     ],
+     [
+      10.019790154643285,
+      76.31861665408815
+     ],
+     [
+      10.017640000000002,
+      76.32408
+     ],
+     [
+      10.016390154643284,
+      76.32981665408813
+     ],
+     [
+      10.01592,
+      76.33578999999999
+     ],
+     [
+      10.0159,
+      76.3419
+     ]
+    ]
+   },
+   "explanation": "Hypothetically, defect D10 (pothole, severity 4) is resolved. The recommendation would change from route S6 \u2192 S13 to route S6 \u2192 S7 \u2192 S15 (4.9 min longer) because the new recommended route's score would fall from 2101 s to 1501 s (rank 2 \u2192 1).",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-03",
+   "perturbation": {
+    "type": "resolve_defect",
+    "defectId": "D2"
+   },
+   "description": "defect D2 (pothole, severity 4) is resolved",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "defect[D2].maintenanceStatus",
+     "from": "under_review",
+     "to": "resolved"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, defect D2 (pothole, severity 4) is resolved. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-04",
+   "perturbation": {
+    "type": "resolve_defect",
+    "defectId": "D3"
+   },
+   "description": "defect D3 (waterlogging, severity 4) is resolved",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "defect[D3].maintenanceStatus",
+     "from": "open",
+     "to": "resolved"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, defect D3 (waterlogging, severity 4) is resolved. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-05",
+   "perturbation": {
+    "type": "resolve_defect",
+    "defectId": "D6"
+   },
+   "description": "defect D6 (pothole, severity 5) is resolved",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "defect[D6].maintenanceStatus",
+     "from": "open",
+     "to": "resolved"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": [
+     "Severity 5 pothole reported on Civil Line Rd (verified)."
+    ]
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1204,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S4_S3_S5_S13",
+     "segmentIds": [
+      "S4",
+      "S3",
+      "S5",
+      "S13"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 1885
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 681
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, defect D6 (pothole, severity 5) is resolved. The recommended route is unchanged, although 1 of its warnings would change. Its score lead over the runner-up grows from 297 s to 681 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-06",
+   "perturbation": {
+    "type": "remove_restriction",
+    "restrictionId": "R1"
+   },
+   "description": "weight restriction R1 on S1 is removed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R1]",
+     "from": "present",
+     "to": "removed"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, weight restriction R1 on S1 is removed. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-07",
+   "perturbation": {
+    "type": "set_evidence_verification",
+    "targetKind": "restriction",
+    "targetId": "R1",
+    "status": "unverified"
+   },
+   "description": "weight restriction R1 on S1 is treated as unverified",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R1].verificationStatus",
+     "from": "verified",
+     "to": "unverified"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, weight restriction R1 on S1 is treated as unverified. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-08",
+   "perturbation": {
+    "type": "remove_restriction",
+    "restrictionId": "R2"
+   },
+   "description": "height restriction R2 on S12 is removed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R2]",
+     "from": "present",
+     "to": "removed"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, height restriction R2 on S12 is removed. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-09",
+   "perturbation": {
+    "type": "set_evidence_verification",
+    "targetKind": "restriction",
+    "targetId": "R2",
+    "status": "unverified"
+   },
+   "description": "height restriction R2 on S12 is treated as unverified",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R2].verificationStatus",
+     "from": "verified",
+     "to": "unverified"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, height restriction R2 on S12 is treated as unverified. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-10",
+   "perturbation": {
+    "type": "remove_restriction",
+    "restrictionId": "R3"
+   },
+   "description": "width restriction R3 on S12 is removed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R3]",
+     "from": "present",
+     "to": "removed"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, width restriction R3 on S12 is removed. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-11",
+   "perturbation": {
+    "type": "set_evidence_verification",
+    "targetKind": "restriction",
+    "targetId": "R3",
+    "status": "unverified"
+   },
+   "description": "width restriction R3 on S12 is treated as unverified",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R3].verificationStatus",
+     "from": "verified",
+     "to": "unverified"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, width restriction R3 on S12 is treated as unverified. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-12",
+   "perturbation": {
+    "type": "remove_restriction",
+    "restrictionId": "R5"
+   },
+   "description": "length restriction R5 on S2 is removed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R5]",
+     "from": "present",
+     "to": "removed"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, length restriction R5 on S2 is removed. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-13",
+   "perturbation": {
+    "type": "verify_restriction",
+    "restrictionId": "R5"
+   },
+   "description": "length restriction R5 on S2 is verified",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R5].verificationStatus",
+     "from": "unverified",
+     "to": "verified"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, length restriction R5 on S2 is verified. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-14",
+   "perturbation": {
+    "type": "remove_restriction",
+    "restrictionId": "R6"
+   },
+   "description": "weight restriction R6 on S15 is removed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R6]",
+     "from": "present",
+     "to": "removed"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, weight restriction R6 on S15 is removed. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-15",
+   "perturbation": {
+    "type": "set_evidence_verification",
+    "targetKind": "restriction",
+    "targetId": "R6",
+    "status": "unverified"
+   },
+   "description": "weight restriction R6 on S15 is treated as unverified",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R6].verificationStatus",
+     "from": "verified",
+     "to": "unverified"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, weight restriction R6 on S15 is treated as unverified. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-16",
+   "perturbation": {
+    "type": "close_segment",
+    "segmentId": "S6"
+   },
+   "description": "segment S6 (NH 66 Bypass (Vyttila\u2013Palarivattom)) is closed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": true,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S4_S3_S5_S13",
+    "via": [
+     "Sahodaran Ayyappan Rd",
+     "Chittoor Rd",
+     "Banerji\u2013Kaloor Rd",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S4",
+     "S3",
+     "S5",
+     "S13"
+    ],
+    "durationMin": 31.4,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 11.3,
+   "changedVariables": [
+    {
+     "variable": "segment[S6].closure",
+     "from": "none",
+     "to": "hypothetical verified closure"
+    }
+   ],
+   "changedWarnings": {
+    "added": [
+     "Road closure on NH 66 Bypass (Vyttila\u2013Palarivattom): Hypothetical closure (Route Autopsy scenario, not real)"
+    ],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "unsuitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S4_S3_S5_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 31.4,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 15.36,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 2485,
+    "segmentsRemoved": [
+     "S6"
+    ],
+    "segmentsAdded": [
+     "S4",
+     "S3",
+     "S5"
+    ],
+    "segmentsShared": [
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S4_S3_S5_S7_S15",
+     "segmentIds": [
+      "S4",
+      "S3",
+      "S5",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2782
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": {
+    "routeId": "VYT-KKD-S4_S3_S5_S13",
+    "label": "Route D",
+    "segmentIds": [
+     "S4",
+     "S3",
+     "S5",
+     "S13"
+    ],
+    "segments": [
+     {
+      "id": "S4",
+      "name": "Sahodaran Ayyappan Rd",
+      "distanceKm": 3.96,
+      "riskLevel": "low",
+      "note": null
+     },
+     {
+      "id": "S3",
+      "name": "Chittoor Rd",
+      "distanceKm": 1.96,
+      "riskLevel": "low",
+      "note": null
+     },
+     {
+      "id": "S5",
+      "name": "Banerji\u2013Kaloor Rd",
+      "distanceKm": 4.46,
+      "riskLevel": "medium",
+      "note": "Severity 2 cracked road reported (verified)."
+     },
+     {
+      "id": "S13",
+      "name": "Civil Line Rd",
+      "distanceKm": 4.97,
+      "riskLevel": "high",
+      "note": "Severity 5 pothole reported on Civil Line Rd (verified)."
+     }
+    ],
+    "distanceKm": 15.36,
+    "durationMin": 31.4,
+    "suitabilityStatus": "suitable",
+    "recommended": true,
+    "isFastestCandidate": false,
+    "rank": 1,
+    "scoreSeconds": 2485,
+    "scoreBreakdown": {
+     "travelSeconds": 1885,
+     "severeDefectPenaltySeconds": 600,
+     "surfacePenaltySeconds": 0
+    },
+    "severeHazardCount": 1,
+    "warnings": [
+     {
+      "level": "info",
+      "message": "Severity 5 pothole reported on Civil Line Rd (verified).",
+      "segmentId": "S13",
+      "restrictionId": null,
+      "defectId": "D6"
+     }
+    ],
+    "missingData": [],
+    "rejectionReasons": [],
+    "explanation": "Route D (via Sahodaran Ayyappan Rd, Chittoor Rd) is recommended because the faster Route A is blocked by a known restriction. It is about 11 min slower than Route A. Estimated 31 min.",
+    "geometry": [
+     [
+      9.9667,
+      76.3186
+     ],
+     [
+      9.968267333333333,
+      76.31375866666667
+     ],
+     [
+      9.969517414822828,
+      76.30889268200764
+     ],
+     [
+      9.970218,
+      76.303984
+     ],
+     [
+      9.970284081489494,
+      76.29902601534097
+     ],
+     [
+      9.969800666666666,
+      76.29402533333334
+     ],
+     [
+      9.969,
+      76.289
+     ],
+     [
+      9.97145,
+      76.28846333333334
+     ],
+     [
+      9.97380621778265,
+      76.28775785867543
+     ],
+     [
+      9.976,
+      76.28676
+     ],
+     [
+      9.97800621778265,
+      76.28542452534211
+     ],
+     [
+      9.97985,
+      76.28379666666666
+     ],
+     [
+      9.9816,
+      76.282
+     ],
+     [
+      9.983916666666666,
+      76.28723666666666
+     ],
+     [
+      9.986568269823872,
+      76.29218662769743
+     ],
+     [
+      9.989799999999999,
+      76.29664
+     ],
+     [
+      9.993701603157204,
+      76.30051996103076
+     ],
+     [
+      9.998183333333333,
+      76.30390333333334
+     ],
+     [
+      10.003,
+      76.307
+     ],
+     [
+      10.003754,
+      76.31333266666667
+     ],
+     [
+      10.004882057072635,
+      76.31952707155004
+     ],
+     [
+      10.006658000000002,
+      76.325482
+     ],
+     [
+      10.009182057072634,
+      76.33116040488336
+     ],
+     [
+      10.012354,
+      76.33659933333334
+     ],
+     [
+      10.0159,
+      76.3419
+     ]
+    ]
+   },
+   "explanation": "Hypothetically, segment S6 (NH 66 Bypass (Vyttila\u2013Palarivattom)) is closed. The recommendation would change from route S6 \u2192 S13 to route S4 \u2192 S3 \u2192 S5 \u2192 S13 (11.3 min longer) because the baseline route would change from suitable to unsuitable (new constraint: Road closure on NH 66 Bypass (Vyttila\u2013Palarivattom): Hypothetical closure (Route Autopsy scenario, not real)).",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-17",
+   "perturbation": {
+    "type": "close_segment",
+    "segmentId": "S13"
+   },
+   "description": "segment S13 (Civil Line Rd) is closed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": true,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S7_S15",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "Edappally\u2013Kakkanad Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S7",
+     "S15"
+    ],
+    "durationMin": 25.0,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 4.9,
+   "changedVariables": [
+    {
+     "variable": "segment[S13].closure",
+     "from": "none",
+     "to": "hypothetical verified closure"
+    }
+   ],
+   "changedWarnings": {
+    "added": [
+     "Road closure on Civil Line Rd: Hypothetical closure (Route Autopsy scenario, not real)"
+    ],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "unsuitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S7_S15",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 25.0,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 12.95,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 2101,
+    "segmentsRemoved": [
+     "S13"
+    ],
+    "segmentsAdded": [
+     "S7",
+     "S15"
+    ],
+    "segmentsShared": [
+     "S6"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S4_S3_S5_S7_S15",
+     "segmentIds": [
+      "S4",
+      "S3",
+      "S5",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2782
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 681
+   },
+   "revisedRoute": {
+    "routeId": "VYT-KKD-S6_S7_S15",
+    "label": "Route C",
+    "segmentIds": [
+     "S6",
+     "S7",
+     "S15"
+    ],
+    "segments": [
+     {
+      "id": "S6",
+      "name": "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+      "distanceKm": 5.11,
+      "riskLevel": "medium",
+      "note": "Severity 2 damaged surface reported (unverified)."
+     },
+     {
+      "id": "S7",
+      "name": "NH 66 (Palarivattom\u2013Edappally)",
+      "distanceKm": 3.11,
+      "riskLevel": "low",
+      "note": null
+     },
+     {
+      "id": "S15",
+      "name": "Edappally\u2013Kakkanad Rd",
+      "distanceKm": 4.73,
+      "riskLevel": "high",
+      "note": "Severity 4 pothole reported on Edappally\u2013Kakkanad Rd (verified)."
+     }
+    ],
+    "distanceKm": 12.95,
+    "durationMin": 25.0,
+    "suitabilityStatus": "suitable",
+    "recommended": true,
+    "isFastestCandidate": false,
+    "rank": 1,
+    "scoreSeconds": 2101,
+    "scoreBreakdown": {
+     "travelSeconds": 1501,
+     "severeDefectPenaltySeconds": 600,
+     "surfacePenaltySeconds": 0
+    },
+    "severeHazardCount": 1,
+    "warnings": [
+     {
+      "level": "info",
+      "message": "Severity 4 pothole reported on Edappally\u2013Kakkanad Rd (verified).",
+      "segmentId": "S15",
+      "restrictionId": null,
+      "defectId": "D10"
+     }
+    ],
+    "missingData": [],
+    "rejectionReasons": [],
+    "explanation": "Route C (via NH 66 Bypass (Vyttila\u2013Palarivattom), NH 66 (Palarivattom\u2013Edappally)) is recommended because the faster Route A is blocked by a known restriction. It is about 5 min slower than Route A. Estimated 25 min.",
+    "geometry": [
+     [
+      9.9667,
+      76.3186
+     ],
+     [
+      9.97304,
+      76.31757416666666
+     ],
+     [
+      9.979302294734195,
+      76.31630516944121
+     ],
+     [
+      9.98543,
+      76.314615
+     ],
+     [
+      9.991402294734195,
+      76.31243850277454
+     ],
+     [
+      9.99724,
+      76.30984083333333
+     ],
+     [
+      10.003,
+      76.307
+     ],
+     [
+      10.006889,
+      76.30652366666668
+     ],
+     [
+      10.010767549981495,
+      76.30623302212369
+     ],
+     [
+      10.014628,
+      76.306264
+     ],
+     [
+      10.018467549981494,
+      76.30666635545703
+     ],
+     [
+      10.022288999999999,
+      76.30739033333334
+     ],
+     [
+      10.0261,
+      76.3083
+     ],
+     [
+      10.02272,
+      76.31339
+     ],
+     [
+      10.019790154643285,
+      76.31861665408815
+     ],
+     [
+      10.017640000000002,
+      76.32408
+     ],
+     [
+      10.016390154643284,
+      76.32981665408813
+     ],
+     [
+      10.01592,
+      76.33578999999999
+     ],
+     [
+      10.0159,
+      76.3419
+     ]
+    ]
+   },
+   "explanation": "Hypothetically, segment S13 (Civil Line Rd) is closed. The recommendation would change from route S6 \u2192 S13 to route S6 \u2192 S7 \u2192 S15 (4.9 min longer) because the baseline route would change from suitable to unsuitable (new constraint: Road closure on Civil Line Rd: Hypothetical closure (Route Autopsy scenario, not real)).",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-18",
+   "perturbation": {
+    "type": "set_vehicle_height",
+    "heightM": 2.97
+   },
+   "description": "vehicle height is 2.97 m",
+   "weight": 0.5,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "vehicle.heightM",
+     "from": 3.3,
+     "to": 2.97
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, vehicle height is 2.97 m. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-19",
+   "perturbation": {
+    "type": "set_vehicle_height",
+    "heightM": 3.63
+   },
+   "description": "vehicle height is 3.63 m",
+   "weight": 0.5,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "vehicle.heightM",
+     "from": 3.3,
+     "to": 3.63
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, vehicle height is 3.63 m. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-20",
+   "perturbation": {
+    "type": "set_vehicle_width",
+    "widthM": 2.25
+   },
+   "description": "vehicle width is 2.25 m",
+   "weight": 0.5,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "vehicle.widthM",
+     "from": 2.5,
+     "to": 2.25
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, vehicle width is 2.25 m. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-21",
+   "perturbation": {
+    "type": "set_vehicle_width",
+    "widthM": 2.75
+   },
+   "description": "vehicle width is 2.75 m",
+   "weight": 0.5,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "vehicle.widthM",
+     "from": 2.5,
+     "to": 2.75
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, vehicle width is 2.75 m. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-22",
+   "perturbation": {
+    "type": "set_vehicle_weight",
+    "weightKg": 12600.0
+   },
+   "description": "vehicle loaded weight is 12600 kg",
+   "weight": 0.5,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "vehicle.currentLoadedWeightKg",
+     "from": 14000,
+     "to": 12600.0
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, vehicle loaded weight is 12600 kg. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-23",
+   "perturbation": {
+    "type": "set_vehicle_weight",
+    "weightKg": 15400.0
+   },
+   "description": "vehicle loaded weight is 15400 kg",
+   "weight": 0.5,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "revisedRecommendation": {
+    "routeId": "VYT-KKD-S6_S13",
+    "via": [
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "Civil Line Rd"
+    ],
+    "segmentIds": [
+     "S6",
+     "S13"
+    ],
+    "durationMin": 20.1,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "vehicle.currentLoadedWeightKg",
+     "from": 14000,
+     "to": 15400.0
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "VYT-KKD-S6_S13",
+    "statusBefore": "suitable",
+    "statusAfter": "suitable",
+    "durationSecondsBefore": 1204,
+    "durationSecondsAfter": 1204
+   },
+   "comparison": {
+    "routeIdBefore": "VYT-KKD-S6_S13",
+    "routeIdAfter": "VYT-KKD-S6_S13",
+    "durationMinBefore": 20.1,
+    "durationMinAfter": 20.1,
+    "distanceKmBefore": 10.08,
+    "distanceKmAfter": 10.08,
+    "suitabilityBefore": "suitable",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 1,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 1804,
+    "scoreSecondsAfter": 1804,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S6",
+     "S13"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "revisedRunnerUp": {
+     "routeId": "VYT-KKD-S6_S7_S15",
+     "segmentIds": [
+      "S6",
+      "S7",
+      "S15"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 2101
+    },
+    "baselineMarginSeconds": 297,
+    "revisedMarginSeconds": 297
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, vehicle loaded weight is 15400 kg. The recommended route is unchanged. Its score lead over the runner-up stays at 297 s.",
+   "notes": []
+  }
+ ],
+ "sensitivity": {
+  "scenariosTested": 23,
+  "scenariosChanged": 3,
+  "scenariosSkipped": 0,
+  "sensitivityScore": 0.15,
+  "totalWeight": 20.0,
+  "changedWeight": 3.0,
+  "changedScenarioIds": [
+   "sc-02",
+   "sc-16",
+   "sc-17"
+  ],
+  "formula": "F = sum(weight_i for perturbations that change the selected recommendation) / sum(weight_i for all tested perturbations)",
+  "interpretation": "F measures how fragile the route recommendation is to the tested changes in evidence. It is not an accident probability, a failure probability, or a verified road-safety risk."
+ },
+ "suite": {
+  "description": "Perturbations generated from evidence touching the evaluated alternatives: resolve severity>=4 defects (only these affect scoring); remove / verify / un-verify applicable restrictions; close each segment of the recommended route; vehicle height, width and weight at +/-10% where known. Defect verification state is not a routing input and is therefore not in the default suite.",
+  "generated": 23,
+  "truncated": false,
+  "vehicleSpecsSkippedBecauseUnknown": []
+ },
+ "explanation": "Baseline recommendation: route S6 \u2192 S13 (suitable, 20.1 min). 3 of 23 tested hypothetical changes would change the recommendation (weighted sensitivity 0.15). F measures how fragile the route recommendation is to the tested changes in evidence. It is not an accident probability, a failure probability, or a verified road-safety risk.",
+ "disclaimer": "Illustrative Kochi pilot graph, restrictions and defects (demo data). Not surveyed, not live, and not suitable for real-world navigation. 'riskLevel' is an evidence-attention heuristic, not a probability of accident or failure."
+}

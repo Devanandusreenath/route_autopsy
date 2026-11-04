@@ -1,0 +1,4740 @@
+{
+ "analysisId": "ra-a1f2d60e028c",
+ "generatedAt": "2026-11-01T15:22:58.324548+00:00",
+ "persisted": false,
+ "baseline": {
+  "route": {
+   "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+   "origin": "Fort Kochi",
+   "destination": "Aluva",
+   "originId": "FKC",
+   "destinationId": "ALV",
+   "distanceKm": 26.03,
+   "durationMin": 52.4,
+   "segments": [
+    {
+     "id": "S2",
+     "name": "Willingdon Island Rd",
+     "distanceKm": 5.95,
+     "riskLevel": "medium",
+     "note": "Severity 2 obstruction reported (unverified). Restriction data incomplete for this segment. Road width unknown."
+    },
+    {
+     "id": "S5",
+     "name": "Banerji\u2013Kaloor Rd",
+     "distanceKm": 4.46,
+     "riskLevel": "medium",
+     "note": "Severity 2 cracked road reported (verified)."
+    },
+    {
+     "id": "S7",
+     "name": "NH 66 (Palarivattom\u2013Edappally)",
+     "distanceKm": 3.11,
+     "riskLevel": "low",
+     "note": null
+    },
+    {
+     "id": "S8",
+     "name": "NH 544 (Edappally\u2013Kalamassery)",
+     "distanceKm": 3.73,
+     "riskLevel": "medium",
+     "note": "Severity 3 damaged surface reported (verified)."
+    },
+    {
+     "id": "S9",
+     "name": "NH 544 (Kalamassery\u2013Aluva)",
+     "distanceKm": 8.78,
+     "riskLevel": "low",
+     "note": null
+    }
+   ],
+   "vehicle": {
+    "id": "cat-traveller",
+    "name": "Force Traveller 2023 26-seater",
+    "type": "Van",
+    "category": "van",
+    "make": "Force",
+    "model": "Traveller",
+    "year": 2023,
+    "variant": "26-seater",
+    "lengthM": 6.5,
+    "widthM": 2.0,
+    "heightM": null,
+    "grossVehicleWeightKg": null,
+    "currentLoadedWeightKg": null,
+    "specStatus": {
+     "lengthM": "estimated",
+     "widthM": "estimated",
+     "heightM": "unknown",
+     "grossVehicleWeightKg": "unknown",
+     "currentLoadedWeightKg": "unknown"
+    },
+    "verificationStatus": "unknown",
+    "unknownSpecs": [
+     "height",
+     "gross vehicle weight"
+    ],
+    "sources": [],
+    "isIllustrative": true,
+    "notes": "Illustrative catalogue entry \u2014 not an official specification. Unknown: height, gross vehicle weight.",
+    "updatedAt": "2026-10-09T18:00:00+00:00",
+    "lastVerifiedAt": null
+   },
+   "suitabilityStatus": "warning",
+   "recommended": true,
+   "recommendationStatus": "recommended",
+   "explanation": "Route A (via Willingdon Island Rd, Banerji\u2013Kaloor Rd) is recommended and is the fastest option, with 3 known hazards (0 severe). Estimated 52 min.",
+   "warnings": [],
+   "missingData": [
+    "Vehicle height, gross vehicle weight not provided",
+    "Restriction data incomplete on Willingdon Island Rd",
+    "Road width unknown on Willingdon Island Rd"
+   ],
+   "alternatives": [
+    {
+     "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+     "label": "Route A",
+     "segmentIds": [
+      "S2",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "segments": [
+      {
+       "id": "S2",
+       "name": "Willingdon Island Rd",
+       "distanceKm": 5.95,
+       "riskLevel": "medium",
+       "note": "Severity 2 obstruction reported (unverified). Restriction data incomplete for this segment. Road width unknown."
+      },
+      {
+       "id": "S5",
+       "name": "Banerji\u2013Kaloor Rd",
+       "distanceKm": 4.46,
+       "riskLevel": "medium",
+       "note": "Severity 2 cracked road reported (verified)."
+      },
+      {
+       "id": "S7",
+       "name": "NH 66 (Palarivattom\u2013Edappally)",
+       "distanceKm": 3.11,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S8",
+       "name": "NH 544 (Edappally\u2013Kalamassery)",
+       "distanceKm": 3.73,
+       "riskLevel": "medium",
+       "note": "Severity 3 damaged surface reported (verified)."
+      },
+      {
+       "id": "S9",
+       "name": "NH 544 (Kalamassery\u2013Aluva)",
+       "distanceKm": 8.78,
+       "riskLevel": "low",
+       "note": null
+      }
+     ],
+     "distanceKm": 26.03,
+     "durationMin": 52.4,
+     "suitabilityStatus": "warning",
+     "recommended": true,
+     "isFastestCandidate": true,
+     "rank": 1,
+     "scoreSeconds": 3144,
+     "scoreBreakdown": {
+      "travelSeconds": 3144,
+      "severeDefectPenaltySeconds": 0,
+      "surfacePenaltySeconds": 0
+     },
+     "severeHazardCount": 0,
+     "warnings": [],
+     "missingData": [
+      "Vehicle height, gross vehicle weight not provided",
+      "Restriction data incomplete on Willingdon Island Rd",
+      "Road width unknown on Willingdon Island Rd"
+     ],
+     "rejectionReasons": [],
+     "explanation": "Route A (via Willingdon Island Rd, Banerji\u2013Kaloor Rd) is recommended and is the fastest option, with 3 known hazards (0 severe). Estimated 52 min.",
+     "geometry": [
+      [
+       9.9658,
+       76.2421
+      ],
+      [
+       9.971425833333333,
+       76.247565
+      ],
+      [
+       9.976249828708317,
+       76.25334751979302
+      ],
+      [
+       9.979685000000002,
+       76.25967999999999
+      ],
+      [
+       9.981516495374983,
+       76.26664751979303
+      ],
+      [
+       9.981959166666666,
+       76.274165
+      ],
+      [
+       9.9816,
+       76.282
+      ],
+      [
+       9.983916666666666,
+       76.28723666666666
+      ],
+      [
+       9.986568269823872,
+       76.29218662769743
+      ],
+      [
+       9.989799999999999,
+       76.29664
+      ],
+      [
+       9.993701603157204,
+       76.30051996103076
+      ],
+      [
+       9.998183333333333,
+       76.30390333333334
+      ],
+      [
+       10.003,
+       76.307
+      ],
+      [
+       10.006889,
+       76.30652366666668
+      ],
+      [
+       10.010767549981495,
+       76.30623302212369
+      ],
+      [
+       10.014628,
+       76.306264
+      ],
+      [
+       10.018467549981494,
+       76.30666635545703
+      ],
+      [
+       10.022288999999999,
+       76.30739033333334
+      ],
+      [
+       10.0261,
+       76.3083
+      ],
+      [
+       10.030382333333332,
+       76.31022366666666
+      ],
+      [
+       10.034718524454346,
+       76.31193109833505
+      ],
+      [
+       10.039148,
+       76.313264
+      ],
+      [
+       10.043685191121012,
+       76.31416443166837
+      ],
+      [
+       10.048315666666667,
+       76.31469033333333
+      ],
+      [
+       10.053,
+       76.315
+      ],
+      [
+       10.063015000000002,
+       76.319735
+      ],
+      [
+       10.072784826488927,
+       76.32483575064768
+      ],
+      [
+       10.082130000000001,
+       76.33057000000001
+      ],
+      [
+       10.090984826488926,
+       76.33703575064767
+      ],
+      [
+       10.099415,
+       76.344135
+      ],
+      [
+       10.1076,
+       76.3516
+      ]
+     ]
+    },
+    {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "label": "Route B",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "segments": [
+      {
+       "id": "S1",
+       "name": "Thoppumpady Old Bridge Rd",
+       "distanceKm": 6.39,
+       "riskLevel": "medium",
+       "note": "Weight limit of 10 t on Thoppumpady Old Bridge Rd, but your vehicle's weight is unknown \u2014 cannot confirm clearance. Severity 3 clearance issue reported (unverified)."
+      },
+      {
+       "id": "S3",
+       "name": "Chittoor Rd",
+       "distanceKm": 1.96,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S5",
+       "name": "Banerji\u2013Kaloor Rd",
+       "distanceKm": 4.46,
+       "riskLevel": "medium",
+       "note": "Severity 2 cracked road reported (verified)."
+      },
+      {
+       "id": "S7",
+       "name": "NH 66 (Palarivattom\u2013Edappally)",
+       "distanceKm": 3.11,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S8",
+       "name": "NH 544 (Edappally\u2013Kalamassery)",
+       "distanceKm": 3.73,
+       "riskLevel": "medium",
+       "note": "Severity 3 damaged surface reported (verified)."
+      },
+      {
+       "id": "S9",
+       "name": "NH 544 (Kalamassery\u2013Aluva)",
+       "distanceKm": 8.78,
+       "riskLevel": "low",
+       "note": null
+      }
+     ],
+     "distanceKm": 28.43,
+     "durationMin": 56.9,
+     "suitabilityStatus": "warning",
+     "recommended": false,
+     "isFastestCandidate": false,
+     "rank": 2,
+     "scoreSeconds": 3411,
+     "scoreBreakdown": {
+      "travelSeconds": 3411,
+      "severeDefectPenaltySeconds": 0,
+      "surfacePenaltySeconds": 0
+     },
+     "severeHazardCount": 0,
+     "warnings": [
+      {
+       "level": "warning",
+       "message": "Weight limit of 10 t on Thoppumpady Old Bridge Rd, but your vehicle's weight is unknown \u2014 cannot confirm clearance.",
+       "segmentId": "S1",
+       "restrictionId": "R1",
+       "defectId": null
+      }
+     ],
+     "missingData": [
+      "Vehicle height, gross vehicle weight not provided"
+     ],
+     "rejectionReasons": [],
+     "explanation": "Route B has the same number of severe defects as Route A but adds approximately 4 minutes. Estimated 57 min.",
+     "geometry": [
+      [
+       9.9658,
+       76.2421
+      ],
+      [
+       9.963519333333332,
+       76.25010866666666
+      ],
+      [
+       9.961992675694166,
+       76.25806588708839
+      ],
+      [
+       9.961771999999998,
+       76.26593399999999
+      ],
+      [
+       9.963059342360832,
+       76.27369922042172
+      ],
+      [
+       9.965652666666665,
+       76.28137533333333
+      ],
+      [
+       9.969,
+       76.289
+      ],
+      [
+       9.97145,
+       76.28846333333334
+      ],
+      [
+       9.97380621778265,
+       76.28775785867543
+      ],
+      [
+       9.976,
+       76.28676
+      ],
+      [
+       9.97800621778265,
+       76.28542452534211
+      ],
+      [
+       9.97985,
+       76.28379666666666
+      ],
+      [
+       9.9816,
+       76.282
+      ],
+      [
+       9.983916666666666,
+       76.28723666666666
+      ],
+      [
+       9.986568269823872,
+       76.29218662769743
+      ],
+      [
+       9.989799999999999,
+       76.29664
+      ],
+      [
+       9.993701603157204,
+       76.30051996103076
+      ],
+      [
+       9.998183333333333,
+       76.30390333333334
+      ],
+      [
+       10.003,
+       76.307
+      ],
+      [
+       10.006889,
+       76.30652366666668
+      ],
+      [
+       10.010767549981495,
+       76.30623302212369
+      ],
+      [
+       10.014628,
+       76.306264
+      ],
+      [
+       10.018467549981494,
+       76.30666635545703
+      ],
+      [
+       10.022288999999999,
+       76.30739033333334
+      ],
+      [
+       10.0261,
+       76.3083
+      ],
+      [
+       10.030382333333332,
+       76.31022366666666
+      ],
+      [
+       10.034718524454346,
+       76.31193109833505
+      ],
+      [
+       10.039148,
+       76.313264
+      ],
+      [
+       10.043685191121012,
+       76.31416443166837
+      ],
+      [
+       10.048315666666667,
+       76.31469033333333
+      ],
+      [
+       10.053,
+       76.315
+      ],
+      [
+       10.063015000000002,
+       76.319735
+      ],
+      [
+       10.072784826488927,
+       76.32483575064768
+      ],
+      [
+       10.082130000000001,
+       76.33057000000001
+      ],
+      [
+       10.090984826488926,
+       76.33703575064767
+      ],
+      [
+       10.099415,
+       76.344135
+      ],
+      [
+       10.1076,
+       76.3516
+      ]
+     ]
+    },
+    {
+     "routeId": "FKC-ALV-S1_S4_S6_S7_S8_S9",
+     "label": "Route C",
+     "segmentIds": [
+      "S1",
+      "S4",
+      "S6",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "segments": [
+      {
+       "id": "S1",
+       "name": "Thoppumpady Old Bridge Rd",
+       "distanceKm": 6.39,
+       "riskLevel": "medium",
+       "note": "Weight limit of 10 t on Thoppumpady Old Bridge Rd, but your vehicle's weight is unknown \u2014 cannot confirm clearance. Severity 3 clearance issue reported (unverified)."
+      },
+      {
+       "id": "S4",
+       "name": "Sahodaran Ayyappan Rd",
+       "distanceKm": 3.96,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S6",
+       "name": "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+       "distanceKm": 5.11,
+       "riskLevel": "medium",
+       "note": "Severity 2 damaged surface reported (unverified)."
+      },
+      {
+       "id": "S7",
+       "name": "NH 66 (Palarivattom\u2013Edappally)",
+       "distanceKm": 3.11,
+       "riskLevel": "low",
+       "note": null
+      },
+      {
+       "id": "S8",
+       "name": "NH 544 (Edappally\u2013Kalamassery)",
+       "distanceKm": 3.73,
+       "riskLevel": "medium",
+       "note": "Severity 3 damaged surface reported (verified)."
+      },
+      {
+       "id": "S9",
+       "name": "NH 544 (Kalamassery\u2013Aluva)",
+       "distanceKm": 8.78,
+       "riskLevel": "low",
+       "note": null
+      }
+     ],
+     "distanceKm": 31.09,
+     "durationMin": 59.5,
+     "suitabilityStatus": "warning",
+     "recommended": false,
+     "isFastestCandidate": false,
+     "rank": 3,
+     "scoreSeconds": 3569,
+     "scoreBreakdown": {
+      "travelSeconds": 3569,
+      "severeDefectPenaltySeconds": 0,
+      "surfacePenaltySeconds": 0
+     },
+     "severeHazardCount": 0,
+     "warnings": [
+      {
+       "level": "warning",
+       "message": "Weight limit of 10 t on Thoppumpady Old Bridge Rd, but your vehicle's weight is unknown \u2014 cannot confirm clearance.",
+       "segmentId": "S1",
+       "restrictionId": "R1",
+       "defectId": null
+      }
+     ],
+     "missingData": [
+      "Vehicle height, gross vehicle weight not provided"
+     ],
+     "rejectionReasons": [],
+     "explanation": "Route C has the same number of severe defects as Route A but adds approximately 7 minutes. Estimated 59 min.",
+     "geometry": [
+      [
+       9.9658,
+       76.2421
+      ],
+      [
+       9.963519333333332,
+       76.25010866666666
+      ],
+      [
+       9.961992675694166,
+       76.25806588708839
+      ],
+      [
+       9.961771999999998,
+       76.26593399999999
+      ],
+      [
+       9.963059342360832,
+       76.27369922042172
+      ],
+      [
+       9.965652666666665,
+       76.28137533333333
+      ],
+      [
+       9.969,
+       76.289
+      ],
+      [
+       9.969800666666666,
+       76.29402533333334
+      ],
+      [
+       9.970284081489494,
+       76.29902601534097
+      ],
+      [
+       9.970218,
+       76.303984
+      ],
+      [
+       9.969517414822828,
+       76.30889268200764
+      ],
+      [
+       9.968267333333333,
+       76.31375866666667
+      ],
+      [
+       9.9667,
+       76.3186
+      ],
+      [
+       9.97304,
+       76.31757416666666
+      ],
+      [
+       9.979302294734195,
+       76.31630516944121
+      ],
+      [
+       9.98543,
+       76.314615
+      ],
+      [
+       9.991402294734195,
+       76.31243850277454
+      ],
+      [
+       9.99724,
+       76.30984083333333
+      ],
+      [
+       10.003,
+       76.307
+      ],
+      [
+       10.006889,
+       76.30652366666668
+      ],
+      [
+       10.010767549981495,
+       76.30623302212369
+      ],
+      [
+       10.014628,
+       76.306264
+      ],
+      [
+       10.018467549981494,
+       76.30666635545703
+      ],
+      [
+       10.022288999999999,
+       76.30739033333334
+      ],
+      [
+       10.0261,
+       76.3083
+      ],
+      [
+       10.030382333333332,
+       76.31022366666666
+      ],
+      [
+       10.034718524454346,
+       76.31193109833505
+      ],
+      [
+       10.039148,
+       76.313264
+      ],
+      [
+       10.043685191121012,
+       76.31416443166837
+      ],
+      [
+       10.048315666666667,
+       76.31469033333333
+      ],
+      [
+       10.053,
+       76.315
+      ],
+      [
+       10.063015000000002,
+       76.319735
+      ],
+      [
+       10.072784826488927,
+       76.32483575064768
+      ],
+      [
+       10.082130000000001,
+       76.33057000000001
+      ],
+      [
+       10.090984826488926,
+       76.33703575064767
+      ],
+      [
+       10.099415,
+       76.344135
+      ],
+      [
+       10.1076,
+       76.3516
+      ]
+     ]
+    },
+    {
+     "routeId": "FKC-ALV-S2_S5_S13_S14_S9",
+     "label": "Route D",
+     "segmentIds": [
+      "S2",
+      "S5",
+      "S13",
+      "S14",
+      "S9"
+     ],
+     "segments": [
+      {
+       "id": "S2",
+       "name": "Willingdon Island Rd",
+       "distanceKm": 5.95,
+       "riskLevel": "medium",
+       "note": "Severity 2 obstruction reported (unverified). Restriction data incomplete for this segment. Road width unknown."
+      },
+      {
+       "id": "S5",
+       "name": "Banerji\u2013Kaloor Rd",
+       "distanceKm": 4.46,
+       "riskLevel": "medium",
+       "note": "Severity 2 cracked road reported (verified)."
+      },
+      {
+       "id": "S13",
+       "name": "Civil Line Rd",
+       "distanceKm": 4.97,
+       "riskLevel": "high",
+       "note": "Severity 5 pothole reported on Civil Line Rd (verified)."
+      },
+      {
+       "id": "S14",
+       "name": "HMT Rd",
+       "distanceKm": 6.23,
+       "riskLevel": "medium",
+       "note": "Road closure on HMT Rd: Partial closure for drain works, one lane open (demo record) Severity 2 other reported (unverified). Unknown surface condition (demo value). Restriction data incomplete for this segment. Road width unknown."
+      },
+      {
+       "id": "S9",
+       "name": "NH 544 (Kalamassery\u2013Aluva)",
+       "distanceKm": 8.78,
+       "riskLevel": "low",
+       "note": null
+      }
+     ],
+     "distanceKm": 30.39,
+     "durationMin": 65.2,
+     "suitabilityStatus": "warning",
+     "recommended": false,
+     "isFastestCandidate": false,
+     "rank": 4,
+     "scoreSeconds": 5075,
+     "scoreBreakdown": {
+      "travelSeconds": 3915,
+      "severeDefectPenaltySeconds": 600,
+      "surfacePenaltySeconds": 560
+     },
+     "severeHazardCount": 1,
+     "warnings": [
+      {
+       "level": "warning",
+       "message": "Road closure on HMT Rd: Partial closure for drain works, one lane open (demo record)",
+       "segmentId": "S14",
+       "restrictionId": "R7",
+       "defectId": null
+      },
+      {
+       "level": "info",
+       "message": "Severity 5 pothole reported on Civil Line Rd (verified).",
+       "segmentId": "S13",
+       "restrictionId": null,
+       "defectId": "D6"
+      }
+     ],
+     "missingData": [
+      "Vehicle height, gross vehicle weight not provided",
+      "Restriction data incomplete on Willingdon Island Rd",
+      "Road width unknown on Willingdon Island Rd",
+      "Restriction data incomplete on HMT Rd",
+      "Road width unknown on HMT Rd"
+     ],
+     "rejectionReasons": [],
+     "explanation": "Route D passes 1 more reported severe defects than Route A but adds approximately 13 minutes. Estimated 1 hr 5 min.",
+     "geometry": [
+      [
+       9.9658,
+       76.2421
+      ],
+      [
+       9.971425833333333,
+       76.247565
+      ],
+      [
+       9.976249828708317,
+       76.25334751979302
+      ],
+      [
+       9.979685000000002,
+       76.25967999999999
+      ],
+      [
+       9.981516495374983,
+       76.26664751979303
+      ],
+      [
+       9.981959166666666,
+       76.274165
+      ],
+      [
+       9.9816,
+       76.282
+      ],
+      [
+       9.983916666666666,
+       76.28723666666666
+      ],
+      [
+       9.986568269823872,
+       76.29218662769743
+      ],
+      [
+       9.989799999999999,
+       76.29664
+      ],
+      [
+       9.993701603157204,
+       76.30051996103076
+      ],
+      [
+       9.998183333333333,
+       76.30390333333334
+      ],
+      [
+       10.003,
+       76.307
+      ],
+      [
+       10.003754,
+       76.31333266666667
+      ],
+      [
+       10.004882057072635,
+       76.31952707155004
+      ],
+      [
+       10.006658000000002,
+       76.325482
+      ],
+      [
+       10.009182057072634,
+       76.33116040488336
+      ],
+      [
+       10.012354,
+       76.33659933333334
+      ],
+      [
+       10.0159,
+       76.3419
+      ],
+      [
+       10.020738333333334,
+       76.33556166666665
+      ],
+      [
+       10.025937058330488,
+       76.32972037908529
+      ],
+      [
+       10.03176,
+       76.32474
+      ],
+      [
+       10.038303724997155,
+       76.32075371241862
+      ],
+      [
+       10.045471666666668,
+       76.31762833333332
+      ],
+      [
+       10.053,
+       76.315
+      ],
+      [
+       10.063015000000002,
+       76.319735
+      ],
+      [
+       10.072784826488927,
+       76.32483575064768
+      ],
+      [
+       10.082130000000001,
+       76.33057000000001
+      ],
+      [
+       10.090984826488926,
+       76.33703575064767
+      ],
+      [
+       10.099415,
+       76.344135
+      ],
+      [
+       10.1076,
+       76.3516
+      ]
+     ]
+    },
+    {
+     "routeId": "FKC-ALV-S2_S5_S13_S15_S8_S9",
+     "label": "Route E",
+     "segmentIds": [
+      "S2",
+      "S5",
+      "S13",
+      "S15",
+      "S8",
+      "S9"
+     ],
+     "segments": [
+      {
+       "id": "S2",
+       "name": "Willingdon Island Rd",
+       "distanceKm": 5.95,
+       "riskLevel": "medium",
+       "note": "Severity 2 obstruction reported (unverified). Restriction data incomplete for this segment. Road width unknown."
+      },
+      {
+       "id": "S5",
+       "name": "Banerji\u2013Kaloor Rd",
+       "distanceKm": 4.46,
+       "riskLevel": "medium",
+       "note": "Severity 2 cracked road reported (verified)."
+      },
+      {
+       "id": "S13",
+       "name": "Civil Line Rd",
+       "distanceKm": 4.97,
+       "riskLevel": "high",
+       "note": "Severity 5 pothole reported on Civil Line Rd (verified)."
+      },
+      {
+       "id": "S15",
+       "name": "Edappally\u2013Kakkanad Rd",
+       "distanceKm": 4.73,
+       "riskLevel": "high",
+       "note": "Weight limit of 20 t on Edappally\u2013Kakkanad Rd, but your vehicle's weight is unknown \u2014 cannot confirm clearance. Severity 4 pothole reported on Edappally\u2013Kakkanad Rd (verified)."
+      },
+      {
+       "id": "S8",
+       "name": "NH 544 (Edappally\u2013Kalamassery)",
+       "distanceKm": 3.73,
+       "riskLevel": "medium",
+       "note": "Severity 3 damaged surface reported (verified)."
+      },
+      {
+       "id": "S9",
+       "name": "NH 544 (Kalamassery\u2013Aluva)",
+       "distanceKm": 8.78,
+       "riskLevel": "low",
+       "note": null
+      }
+     ],
+     "distanceKm": 32.62,
+     "durationMin": 68.5,
+     "suitabilityStatus": "warning",
+     "recommended": false,
+     "isFastestCandidate": false,
+     "rank": 5,
+     "scoreSeconds": 5309,
+     "scoreBreakdown": {
+      "travelSeconds": 4109,
+      "severeDefectPenaltySeconds": 1200,
+      "surfacePenaltySeconds": 0
+     },
+     "severeHazardCount": 2,
+     "warnings": [
+      {
+       "level": "warning",
+       "message": "Weight limit of 20 t on Edappally\u2013Kakkanad Rd, but your vehicle's weight is unknown \u2014 cannot confirm clearance.",
+       "segmentId": "S15",
+       "restrictionId": "R6",
+       "defectId": null
+      },
+      {
+       "level": "info",
+       "message": "Severity 5 pothole reported on Civil Line Rd (verified).",
+       "segmentId": "S13",
+       "restrictionId": null,
+       "defectId": "D6"
+      },
+      {
+       "level": "info",
+       "message": "Severity 4 pothole reported on Edappally\u2013Kakkanad Rd (verified).",
+       "segmentId": "S15",
+       "restrictionId": null,
+       "defectId": "D10"
+      }
+     ],
+     "missingData": [
+      "Vehicle height, gross vehicle weight not provided",
+      "Restriction data incomplete on Willingdon Island Rd",
+      "Road width unknown on Willingdon Island Rd"
+     ],
+     "rejectionReasons": [],
+     "explanation": "Route E passes 2 more reported severe defects than Route A but adds approximately 16 minutes. Estimated 1 hr 8 min.",
+     "geometry": [
+      [
+       9.9658,
+       76.2421
+      ],
+      [
+       9.971425833333333,
+       76.247565
+      ],
+      [
+       9.976249828708317,
+       76.25334751979302
+      ],
+      [
+       9.979685000000002,
+       76.25967999999999
+      ],
+      [
+       9.981516495374983,
+       76.26664751979303
+      ],
+      [
+       9.981959166666666,
+       76.274165
+      ],
+      [
+       9.9816,
+       76.282
+      ],
+      [
+       9.983916666666666,
+       76.28723666666666
+      ],
+      [
+       9.986568269823872,
+       76.29218662769743
+      ],
+      [
+       9.989799999999999,
+       76.29664
+      ],
+      [
+       9.993701603157204,
+       76.30051996103076
+      ],
+      [
+       9.998183333333333,
+       76.30390333333334
+      ],
+      [
+       10.003,
+       76.307
+      ],
+      [
+       10.003754,
+       76.31333266666667
+      ],
+      [
+       10.004882057072635,
+       76.31952707155004
+      ],
+      [
+       10.006658000000002,
+       76.325482
+      ],
+      [
+       10.009182057072634,
+       76.33116040488336
+      ],
+      [
+       10.012354,
+       76.33659933333334
+      ],
+      [
+       10.0159,
+       76.3419
+      ],
+      [
+       10.01592,
+       76.33578999999999
+      ],
+      [
+       10.016390154643284,
+       76.32981665408813
+      ],
+      [
+       10.017640000000002,
+       76.32408
+      ],
+      [
+       10.019790154643285,
+       76.31861665408815
+      ],
+      [
+       10.02272,
+       76.31339
+      ],
+      [
+       10.0261,
+       76.3083
+      ],
+      [
+       10.030382333333332,
+       76.31022366666666
+      ],
+      [
+       10.034718524454346,
+       76.31193109833505
+      ],
+      [
+       10.039148,
+       76.313264
+      ],
+      [
+       10.043685191121012,
+       76.31416443166837
+      ],
+      [
+       10.048315666666667,
+       76.31469033333333
+      ],
+      [
+       10.053,
+       76.315
+      ],
+      [
+       10.063015000000002,
+       76.319735
+      ],
+      [
+       10.072784826488927,
+       76.32483575064768
+      ],
+      [
+       10.082130000000001,
+       76.33057000000001
+      ],
+      [
+       10.090984826488926,
+       76.33703575064767
+      ],
+      [
+       10.099415,
+       76.344135
+      ],
+      [
+       10.1076,
+       76.3516
+      ]
+     ]
+    }
+   ],
+   "search": {
+    "candidatesEnumerated": 28,
+    "candidatesEvaluated": 28,
+    "truncated": false,
+    "maxDepth": 6,
+    "maxCandidates": 5000,
+    "statusCounts": {
+     "suitable": 0,
+     "warning": 28,
+     "not_validated": 0,
+     "unsuitable": 0
+    },
+    "alternativesReturned": 5
+   },
+   "disclaimer": "Illustrative Kochi pilot graph, restrictions and defects (demo data). Not surveyed, not live, and not suitable for real-world navigation. 'riskLevel' is an evidence-attention heuristic, not a probability of accident or failure."
+  },
+  "recommendedRouteId": "FKC-ALV-S2_S5_S7_S8_S9",
+  "suitabilityStatus": "warning",
+  "durationMin": 52.4,
+  "hazardPenaltySeconds": 0,
+  "restrictionWarnings": [],
+  "missingVehicleSpecs": [
+   "height",
+   "gross vehicle weight"
+  ],
+  "unverifiedEvidence": {
+   "defects": [
+    {
+     "id": "D8",
+     "latitude": 9.98078389722499,
+     "longitude": 76.2638605118758,
+     "roadSegmentId": "S2",
+     "defectType": "obstruction",
+     "severity": 2,
+     "description": "Parked containers narrowing the lane.",
+     "photoUrl": null,
+     "observedAt": "2026-10-09T06:00:00Z",
+     "reportedAt": "2026-10-09T06:45:00Z",
+     "verificationStatus": "unverified",
+     "maintenanceStatus": "open",
+     "independentReportCount": 1
+    }
+   ],
+   "restrictions": [
+    {
+     "id": "R5",
+     "roadSegmentId": "S2",
+     "restrictionType": "length",
+     "limitValue": 10,
+     "unit": "m",
+     "appliesTo": "all",
+     "description": "Tight turn near port gate, vehicles over 10 m (unconfirmed)",
+     "source": "Community report \u2014 unverified",
+     "verificationStatus": "unverified",
+     "lastVerifiedAt": null
+    }
+   ]
+  }
+ },
+ "baselineRecommendation": {
+  "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+  "via": [
+   "Willingdon Island Rd",
+   "Banerji\u2013Kaloor Rd",
+   "NH 66 (Palarivattom\u2013Edappally)",
+   "NH 544 (Edappally\u2013Kalamassery)",
+   "NH 544 (Kalamassery\u2013Aluva)"
+  ],
+  "segmentIds": [
+   "S2",
+   "S5",
+   "S7",
+   "S8",
+   "S9"
+  ],
+  "durationMin": 52.4,
+  "suitabilityStatus": "warning"
+ },
+ "scenarios": [
+  {
+   "scenarioId": "sc-01",
+   "perturbation": {
+    "type": "resolve_defect",
+    "defectId": "D10"
+   },
+   "description": "defect D10 (pothole, severity 4) is resolved",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "defect[D10].maintenanceStatus",
+     "from": "open",
+     "to": "resolved"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 52.4,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 26.03,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3144,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, defect D10 (pothole, severity 4) is resolved. The recommended route is unchanged. Its score lead over the runner-up stays at 267 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-02",
+   "perturbation": {
+    "type": "resolve_defect",
+    "defectId": "D6"
+   },
+   "description": "defect D6 (pothole, severity 5) is resolved",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "defect[D6].maintenanceStatus",
+     "from": "open",
+     "to": "resolved"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 52.4,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 26.03,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3144,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, defect D6 (pothole, severity 5) is resolved. The recommended route is unchanged. Its score lead over the runner-up stays at 267 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-03",
+   "perturbation": {
+    "type": "remove_restriction",
+    "restrictionId": "R1"
+   },
+   "description": "weight restriction R1 on S1 is removed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": true,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+    "via": [
+     "Thoppumpady Old Bridge Rd",
+     "Chittoor Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S1",
+     "S3",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 56.9,
+    "suitabilityStatus": "suitable"
+   },
+   "deltaDurationMin": 4.5,
+   "changedVariables": [
+    {
+     "variable": "restriction[R1]",
+     "from": "present",
+     "to": "removed"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 56.9,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 28.43,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "suitable",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3411,
+    "segmentsRemoved": [
+     "S2"
+    ],
+    "segmentsAdded": [
+     "S1",
+     "S3"
+    ],
+    "segmentsShared": [
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S4_S6_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S4",
+      "S6",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "suitable",
+     "scoreSeconds": 3569
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 158
+   },
+   "revisedRoute": {
+    "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+    "label": "Route B",
+    "segmentIds": [
+     "S1",
+     "S3",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "segments": [
+     {
+      "id": "S1",
+      "name": "Thoppumpady Old Bridge Rd",
+      "distanceKm": 6.39,
+      "riskLevel": "medium",
+      "note": "Severity 3 clearance issue reported (unverified)."
+     },
+     {
+      "id": "S3",
+      "name": "Chittoor Rd",
+      "distanceKm": 1.96,
+      "riskLevel": "low",
+      "note": null
+     },
+     {
+      "id": "S5",
+      "name": "Banerji\u2013Kaloor Rd",
+      "distanceKm": 4.46,
+      "riskLevel": "medium",
+      "note": "Severity 2 cracked road reported (verified)."
+     },
+     {
+      "id": "S7",
+      "name": "NH 66 (Palarivattom\u2013Edappally)",
+      "distanceKm": 3.11,
+      "riskLevel": "low",
+      "note": null
+     },
+     {
+      "id": "S8",
+      "name": "NH 544 (Edappally\u2013Kalamassery)",
+      "distanceKm": 3.73,
+      "riskLevel": "medium",
+      "note": "Severity 3 damaged surface reported (verified)."
+     },
+     {
+      "id": "S9",
+      "name": "NH 544 (Kalamassery\u2013Aluva)",
+      "distanceKm": 8.78,
+      "riskLevel": "low",
+      "note": null
+     }
+    ],
+    "distanceKm": 28.43,
+    "durationMin": 56.9,
+    "suitabilityStatus": "suitable",
+    "recommended": true,
+    "isFastestCandidate": false,
+    "rank": 1,
+    "scoreSeconds": 3411,
+    "scoreBreakdown": {
+     "travelSeconds": 3411,
+     "severeDefectPenaltySeconds": 0,
+     "surfacePenaltySeconds": 0
+    },
+    "severeHazardCount": 0,
+    "warnings": [],
+    "missingData": [
+     "Vehicle height, gross vehicle weight not provided"
+    ],
+    "rejectionReasons": [],
+    "explanation": "Route B (via Thoppumpady Old Bridge Rd, Chittoor Rd) is recommended because Route A has unresolved warnings (warning) that this route avoids. It is about 4 min slower than Route A. Estimated 57 min.",
+    "geometry": [
+     [
+      9.9658,
+      76.2421
+     ],
+     [
+      9.963519333333332,
+      76.25010866666666
+     ],
+     [
+      9.961992675694166,
+      76.25806588708839
+     ],
+     [
+      9.961771999999998,
+      76.26593399999999
+     ],
+     [
+      9.963059342360832,
+      76.27369922042172
+     ],
+     [
+      9.965652666666665,
+      76.28137533333333
+     ],
+     [
+      9.969,
+      76.289
+     ],
+     [
+      9.97145,
+      76.28846333333334
+     ],
+     [
+      9.97380621778265,
+      76.28775785867543
+     ],
+     [
+      9.976,
+      76.28676
+     ],
+     [
+      9.97800621778265,
+      76.28542452534211
+     ],
+     [
+      9.97985,
+      76.28379666666666
+     ],
+     [
+      9.9816,
+      76.282
+     ],
+     [
+      9.983916666666666,
+      76.28723666666666
+     ],
+     [
+      9.986568269823872,
+      76.29218662769743
+     ],
+     [
+      9.989799999999999,
+      76.29664
+     ],
+     [
+      9.993701603157204,
+      76.30051996103076
+     ],
+     [
+      9.998183333333333,
+      76.30390333333334
+     ],
+     [
+      10.003,
+      76.307
+     ],
+     [
+      10.006889,
+      76.30652366666668
+     ],
+     [
+      10.010767549981495,
+      76.30623302212369
+     ],
+     [
+      10.014628,
+      76.306264
+     ],
+     [
+      10.018467549981494,
+      76.30666635545703
+     ],
+     [
+      10.022288999999999,
+      76.30739033333334
+     ],
+     [
+      10.0261,
+      76.3083
+     ],
+     [
+      10.030382333333332,
+      76.31022366666666
+     ],
+     [
+      10.034718524454346,
+      76.31193109833505
+     ],
+     [
+      10.039148,
+      76.313264
+     ],
+     [
+      10.043685191121012,
+      76.31416443166837
+     ],
+     [
+      10.048315666666667,
+      76.31469033333333
+     ],
+     [
+      10.053,
+      76.315
+     ],
+     [
+      10.063015000000002,
+      76.319735
+     ],
+     [
+      10.072784826488927,
+      76.32483575064768
+     ],
+     [
+      10.082130000000001,
+      76.33057000000001
+     ],
+     [
+      10.090984826488926,
+      76.33703575064767
+     ],
+     [
+      10.099415,
+      76.344135
+     ],
+     [
+      10.1076,
+      76.3516
+     ]
+    ]
+   },
+   "explanation": "Hypothetically, weight restriction R1 on S1 is removed. The recommendation would change from route S2 \u2192 S5 \u2192 S7 \u2192 S8 \u2192 S9 to route S1 \u2192 S3 \u2192 S5 \u2192 S7 \u2192 S8 \u2192 S9 (4.5 min longer) because the new recommended route would improve from warning to suitable.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-04",
+   "perturbation": {
+    "type": "set_evidence_verification",
+    "targetKind": "restriction",
+    "targetId": "R1",
+    "status": "unverified"
+   },
+   "description": "weight restriction R1 on S1 is treated as unverified",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R1].verificationStatus",
+     "from": "verified",
+     "to": "unverified"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 52.4,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 26.03,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3144,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, weight restriction R1 on S1 is treated as unverified. The recommended route is unchanged. Its score lead over the runner-up stays at 267 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-05",
+   "perturbation": {
+    "type": "remove_restriction",
+    "restrictionId": "R5"
+   },
+   "description": "length restriction R5 on S2 is removed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R5]",
+     "from": "present",
+     "to": "removed"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 52.4,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 26.03,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3144,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, length restriction R5 on S2 is removed. The recommended route is unchanged. Its score lead over the runner-up stays at 267 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-06",
+   "perturbation": {
+    "type": "verify_restriction",
+    "restrictionId": "R5"
+   },
+   "description": "length restriction R5 on S2 is verified",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R5].verificationStatus",
+     "from": "unverified",
+     "to": "verified"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 52.4,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 26.03,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3144,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, length restriction R5 on S2 is verified. The recommended route is unchanged. Its score lead over the runner-up stays at 267 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-07",
+   "perturbation": {
+    "type": "remove_restriction",
+    "restrictionId": "R6"
+   },
+   "description": "weight restriction R6 on S15 is removed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R6]",
+     "from": "present",
+     "to": "removed"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 52.4,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 26.03,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3144,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, weight restriction R6 on S15 is removed. The recommended route is unchanged. Its score lead over the runner-up stays at 267 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-08",
+   "perturbation": {
+    "type": "set_evidence_verification",
+    "targetKind": "restriction",
+    "targetId": "R6",
+    "status": "unverified"
+   },
+   "description": "weight restriction R6 on S15 is treated as unverified",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R6].verificationStatus",
+     "from": "verified",
+     "to": "unverified"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 52.4,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 26.03,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3144,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, weight restriction R6 on S15 is treated as unverified. The recommended route is unchanged. Its score lead over the runner-up stays at 267 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-09",
+   "perturbation": {
+    "type": "remove_restriction",
+    "restrictionId": "R7"
+   },
+   "description": "closure restriction R7 on S14 is removed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R7]",
+     "from": "present",
+     "to": "removed"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 52.4,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 26.03,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3144,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, closure restriction R7 on S14 is removed. The recommended route is unchanged. Its score lead over the runner-up stays at 267 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-10",
+   "perturbation": {
+    "type": "verify_restriction",
+    "restrictionId": "R7"
+   },
+   "description": "closure restriction R7 on S14 is verified",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "restriction[R7].verificationStatus",
+     "from": "unverified",
+     "to": "verified"
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 52.4,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 26.03,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3144,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, closure restriction R7 on S14 is verified. The recommended route is unchanged. Its score lead over the runner-up stays at 267 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-11",
+   "perturbation": {
+    "type": "close_segment",
+    "segmentId": "S2"
+   },
+   "description": "segment S2 (Willingdon Island Rd) is closed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": true,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+    "via": [
+     "Thoppumpady Old Bridge Rd",
+     "Chittoor Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S1",
+     "S3",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 56.9,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 4.5,
+   "changedVariables": [
+    {
+     "variable": "segment[S2].closure",
+     "from": "none",
+     "to": "hypothetical verified closure"
+    }
+   ],
+   "changedWarnings": {
+    "added": [
+     "Road closure on Willingdon Island Rd: Hypothetical closure (Route Autopsy scenario, not real)"
+    ],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "unsuitable",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 56.9,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 28.43,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3411,
+    "segmentsRemoved": [
+     "S2"
+    ],
+    "segmentsAdded": [
+     "S1",
+     "S3"
+    ],
+    "segmentsShared": [
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S4_S6_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S4",
+      "S6",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3569
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 158
+   },
+   "revisedRoute": {
+    "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+    "label": "Route B",
+    "segmentIds": [
+     "S1",
+     "S3",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "segments": [
+     {
+      "id": "S1",
+      "name": "Thoppumpady Old Bridge Rd",
+      "distanceKm": 6.39,
+      "riskLevel": "medium",
+      "note": "Weight limit of 10 t on Thoppumpady Old Bridge Rd, but your vehicle's weight is unknown \u2014 cannot confirm clearance. Severity 3 clearance issue reported (unverified)."
+     },
+     {
+      "id": "S3",
+      "name": "Chittoor Rd",
+      "distanceKm": 1.96,
+      "riskLevel": "low",
+      "note": null
+     },
+     {
+      "id": "S5",
+      "name": "Banerji\u2013Kaloor Rd",
+      "distanceKm": 4.46,
+      "riskLevel": "medium",
+      "note": "Severity 2 cracked road reported (verified)."
+     },
+     {
+      "id": "S7",
+      "name": "NH 66 (Palarivattom\u2013Edappally)",
+      "distanceKm": 3.11,
+      "riskLevel": "low",
+      "note": null
+     },
+     {
+      "id": "S8",
+      "name": "NH 544 (Edappally\u2013Kalamassery)",
+      "distanceKm": 3.73,
+      "riskLevel": "medium",
+      "note": "Severity 3 damaged surface reported (verified)."
+     },
+     {
+      "id": "S9",
+      "name": "NH 544 (Kalamassery\u2013Aluva)",
+      "distanceKm": 8.78,
+      "riskLevel": "low",
+      "note": null
+     }
+    ],
+    "distanceKm": 28.43,
+    "durationMin": 56.9,
+    "suitabilityStatus": "warning",
+    "recommended": true,
+    "isFastestCandidate": false,
+    "rank": 1,
+    "scoreSeconds": 3411,
+    "scoreBreakdown": {
+     "travelSeconds": 3411,
+     "severeDefectPenaltySeconds": 0,
+     "surfacePenaltySeconds": 0
+    },
+    "severeHazardCount": 0,
+    "warnings": [
+     {
+      "level": "warning",
+      "message": "Weight limit of 10 t on Thoppumpady Old Bridge Rd, but your vehicle's weight is unknown \u2014 cannot confirm clearance.",
+      "segmentId": "S1",
+      "restrictionId": "R1",
+      "defectId": null
+     }
+    ],
+    "missingData": [
+     "Vehicle height, gross vehicle weight not provided"
+    ],
+    "rejectionReasons": [],
+    "explanation": "Route B (via Thoppumpady Old Bridge Rd, Chittoor Rd) is recommended because the faster Route A is blocked by a known restriction. It is about 4 min slower than Route A. Estimated 57 min.",
+    "geometry": [
+     [
+      9.9658,
+      76.2421
+     ],
+     [
+      9.963519333333332,
+      76.25010866666666
+     ],
+     [
+      9.961992675694166,
+      76.25806588708839
+     ],
+     [
+      9.961771999999998,
+      76.26593399999999
+     ],
+     [
+      9.963059342360832,
+      76.27369922042172
+     ],
+     [
+      9.965652666666665,
+      76.28137533333333
+     ],
+     [
+      9.969,
+      76.289
+     ],
+     [
+      9.97145,
+      76.28846333333334
+     ],
+     [
+      9.97380621778265,
+      76.28775785867543
+     ],
+     [
+      9.976,
+      76.28676
+     ],
+     [
+      9.97800621778265,
+      76.28542452534211
+     ],
+     [
+      9.97985,
+      76.28379666666666
+     ],
+     [
+      9.9816,
+      76.282
+     ],
+     [
+      9.983916666666666,
+      76.28723666666666
+     ],
+     [
+      9.986568269823872,
+      76.29218662769743
+     ],
+     [
+      9.989799999999999,
+      76.29664
+     ],
+     [
+      9.993701603157204,
+      76.30051996103076
+     ],
+     [
+      9.998183333333333,
+      76.30390333333334
+     ],
+     [
+      10.003,
+      76.307
+     ],
+     [
+      10.006889,
+      76.30652366666668
+     ],
+     [
+      10.010767549981495,
+      76.30623302212369
+     ],
+     [
+      10.014628,
+      76.306264
+     ],
+     [
+      10.018467549981494,
+      76.30666635545703
+     ],
+     [
+      10.022288999999999,
+      76.30739033333334
+     ],
+     [
+      10.0261,
+      76.3083
+     ],
+     [
+      10.030382333333332,
+      76.31022366666666
+     ],
+     [
+      10.034718524454346,
+      76.31193109833505
+     ],
+     [
+      10.039148,
+      76.313264
+     ],
+     [
+      10.043685191121012,
+      76.31416443166837
+     ],
+     [
+      10.048315666666667,
+      76.31469033333333
+     ],
+     [
+      10.053,
+      76.315
+     ],
+     [
+      10.063015000000002,
+      76.319735
+     ],
+     [
+      10.072784826488927,
+      76.32483575064768
+     ],
+     [
+      10.082130000000001,
+      76.33057000000001
+     ],
+     [
+      10.090984826488926,
+      76.33703575064767
+     ],
+     [
+      10.099415,
+      76.344135
+     ],
+     [
+      10.1076,
+      76.3516
+     ]
+    ]
+   },
+   "explanation": "Hypothetically, segment S2 (Willingdon Island Rd) is closed. The recommendation would change from route S2 \u2192 S5 \u2192 S7 \u2192 S8 \u2192 S9 to route S1 \u2192 S3 \u2192 S5 \u2192 S7 \u2192 S8 \u2192 S9 (4.5 min longer) because the baseline route would change from warning to unsuitable (new constraint: Road closure on Willingdon Island Rd: Hypothetical closure (Route Autopsy scenario, not real)).",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-12",
+   "perturbation": {
+    "type": "close_segment",
+    "segmentId": "S5"
+   },
+   "description": "segment S5 (Banerji\u2013Kaloor Rd) is closed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": true,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S1_S4_S6_S7_S8_S9",
+    "via": [
+     "Thoppumpady Old Bridge Rd",
+     "Sahodaran Ayyappan Rd",
+     "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S1",
+     "S4",
+     "S6",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 59.5,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 7.1,
+   "changedVariables": [
+    {
+     "variable": "segment[S5].closure",
+     "from": "none",
+     "to": "hypothetical verified closure"
+    }
+   ],
+   "changedWarnings": {
+    "added": [
+     "Road closure on Banerji\u2013Kaloor Rd: Hypothetical closure (Route Autopsy scenario, not real)"
+    ],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "unsuitable",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S1_S4_S6_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 59.5,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 31.09,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3569,
+    "segmentsRemoved": [
+     "S2",
+     "S5"
+    ],
+    "segmentsAdded": [
+     "S1",
+     "S4",
+     "S6"
+    ],
+    "segmentsShared": [
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S4_S6_S13_S14_S9",
+     "segmentIds": [
+      "S1",
+      "S4",
+      "S6",
+      "S13",
+      "S14",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 5500
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 1931
+   },
+   "revisedRoute": {
+    "routeId": "FKC-ALV-S1_S4_S6_S7_S8_S9",
+    "label": "Route C",
+    "segmentIds": [
+     "S1",
+     "S4",
+     "S6",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "segments": [
+     {
+      "id": "S1",
+      "name": "Thoppumpady Old Bridge Rd",
+      "distanceKm": 6.39,
+      "riskLevel": "medium",
+      "note": "Weight limit of 10 t on Thoppumpady Old Bridge Rd, but your vehicle's weight is unknown \u2014 cannot confirm clearance. Severity 3 clearance issue reported (unverified)."
+     },
+     {
+      "id": "S4",
+      "name": "Sahodaran Ayyappan Rd",
+      "distanceKm": 3.96,
+      "riskLevel": "low",
+      "note": null
+     },
+     {
+      "id": "S6",
+      "name": "NH 66 Bypass (Vyttila\u2013Palarivattom)",
+      "distanceKm": 5.11,
+      "riskLevel": "medium",
+      "note": "Severity 2 damaged surface reported (unverified)."
+     },
+     {
+      "id": "S7",
+      "name": "NH 66 (Palarivattom\u2013Edappally)",
+      "distanceKm": 3.11,
+      "riskLevel": "low",
+      "note": null
+     },
+     {
+      "id": "S8",
+      "name": "NH 544 (Edappally\u2013Kalamassery)",
+      "distanceKm": 3.73,
+      "riskLevel": "medium",
+      "note": "Severity 3 damaged surface reported (verified)."
+     },
+     {
+      "id": "S9",
+      "name": "NH 544 (Kalamassery\u2013Aluva)",
+      "distanceKm": 8.78,
+      "riskLevel": "low",
+      "note": null
+     }
+    ],
+    "distanceKm": 31.09,
+    "durationMin": 59.5,
+    "suitabilityStatus": "warning",
+    "recommended": true,
+    "isFastestCandidate": false,
+    "rank": 1,
+    "scoreSeconds": 3569,
+    "scoreBreakdown": {
+     "travelSeconds": 3569,
+     "severeDefectPenaltySeconds": 0,
+     "surfacePenaltySeconds": 0
+    },
+    "severeHazardCount": 0,
+    "warnings": [
+     {
+      "level": "warning",
+      "message": "Weight limit of 10 t on Thoppumpady Old Bridge Rd, but your vehicle's weight is unknown \u2014 cannot confirm clearance.",
+      "segmentId": "S1",
+      "restrictionId": "R1",
+      "defectId": null
+     }
+    ],
+    "missingData": [
+     "Vehicle height, gross vehicle weight not provided"
+    ],
+    "rejectionReasons": [],
+    "explanation": "Route C (via Thoppumpady Old Bridge Rd, Sahodaran Ayyappan Rd) is recommended because the faster Route A is blocked by a known restriction. It is about 7 min slower than Route A. Estimated 59 min.",
+    "geometry": [
+     [
+      9.9658,
+      76.2421
+     ],
+     [
+      9.963519333333332,
+      76.25010866666666
+     ],
+     [
+      9.961992675694166,
+      76.25806588708839
+     ],
+     [
+      9.961771999999998,
+      76.26593399999999
+     ],
+     [
+      9.963059342360832,
+      76.27369922042172
+     ],
+     [
+      9.965652666666665,
+      76.28137533333333
+     ],
+     [
+      9.969,
+      76.289
+     ],
+     [
+      9.969800666666666,
+      76.29402533333334
+     ],
+     [
+      9.970284081489494,
+      76.29902601534097
+     ],
+     [
+      9.970218,
+      76.303984
+     ],
+     [
+      9.969517414822828,
+      76.30889268200764
+     ],
+     [
+      9.968267333333333,
+      76.31375866666667
+     ],
+     [
+      9.9667,
+      76.3186
+     ],
+     [
+      9.97304,
+      76.31757416666666
+     ],
+     [
+      9.979302294734195,
+      76.31630516944121
+     ],
+     [
+      9.98543,
+      76.314615
+     ],
+     [
+      9.991402294734195,
+      76.31243850277454
+     ],
+     [
+      9.99724,
+      76.30984083333333
+     ],
+     [
+      10.003,
+      76.307
+     ],
+     [
+      10.006889,
+      76.30652366666668
+     ],
+     [
+      10.010767549981495,
+      76.30623302212369
+     ],
+     [
+      10.014628,
+      76.306264
+     ],
+     [
+      10.018467549981494,
+      76.30666635545703
+     ],
+     [
+      10.022288999999999,
+      76.30739033333334
+     ],
+     [
+      10.0261,
+      76.3083
+     ],
+     [
+      10.030382333333332,
+      76.31022366666666
+     ],
+     [
+      10.034718524454346,
+      76.31193109833505
+     ],
+     [
+      10.039148,
+      76.313264
+     ],
+     [
+      10.043685191121012,
+      76.31416443166837
+     ],
+     [
+      10.048315666666667,
+      76.31469033333333
+     ],
+     [
+      10.053,
+      76.315
+     ],
+     [
+      10.063015000000002,
+      76.319735
+     ],
+     [
+      10.072784826488927,
+      76.32483575064768
+     ],
+     [
+      10.082130000000001,
+      76.33057000000001
+     ],
+     [
+      10.090984826488926,
+      76.33703575064767
+     ],
+     [
+      10.099415,
+      76.344135
+     ],
+     [
+      10.1076,
+      76.3516
+     ]
+    ]
+   },
+   "explanation": "Hypothetically, segment S5 (Banerji\u2013Kaloor Rd) is closed. The recommendation would change from route S2 \u2192 S5 \u2192 S7 \u2192 S8 \u2192 S9 to route S1 \u2192 S4 \u2192 S6 \u2192 S7 \u2192 S8 \u2192 S9 (7.1 min longer) because the baseline route would change from warning to unsuitable (new constraint: Road closure on Banerji\u2013Kaloor Rd: Hypothetical closure (Route Autopsy scenario, not real)).",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-13",
+   "perturbation": {
+    "type": "close_segment",
+    "segmentId": "S7"
+   },
+   "description": "segment S7 (NH 66 (Palarivattom\u2013Edappally)) is closed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": true,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S13_S14_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "Civil Line Rd",
+     "HMT Rd",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S13",
+     "S14",
+     "S9"
+    ],
+    "durationMin": 65.2,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 12.8,
+   "changedVariables": [
+    {
+     "variable": "segment[S7].closure",
+     "from": "none",
+     "to": "hypothetical verified closure"
+    }
+   ],
+   "changedWarnings": {
+    "added": [
+     "Road closure on NH 66 (Palarivattom\u2013Edappally): Hypothetical closure (Route Autopsy scenario, not real)"
+    ],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "unsuitable",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S13_S14_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 65.2,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 30.39,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 5075,
+    "segmentsRemoved": [
+     "S7",
+     "S8"
+    ],
+    "segmentsAdded": [
+     "S13",
+     "S14"
+    ],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S2_S5_S13_S15_S8_S9",
+     "segmentIds": [
+      "S2",
+      "S5",
+      "S13",
+      "S15",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 5309
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 234
+   },
+   "revisedRoute": {
+    "routeId": "FKC-ALV-S2_S5_S13_S14_S9",
+    "label": "Route D",
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S13",
+     "S14",
+     "S9"
+    ],
+    "segments": [
+     {
+      "id": "S2",
+      "name": "Willingdon Island Rd",
+      "distanceKm": 5.95,
+      "riskLevel": "medium",
+      "note": "Severity 2 obstruction reported (unverified). Restriction data incomplete for this segment. Road width unknown."
+     },
+     {
+      "id": "S5",
+      "name": "Banerji\u2013Kaloor Rd",
+      "distanceKm": 4.46,
+      "riskLevel": "medium",
+      "note": "Severity 2 cracked road reported (verified)."
+     },
+     {
+      "id": "S13",
+      "name": "Civil Line Rd",
+      "distanceKm": 4.97,
+      "riskLevel": "high",
+      "note": "Severity 5 pothole reported on Civil Line Rd (verified)."
+     },
+     {
+      "id": "S14",
+      "name": "HMT Rd",
+      "distanceKm": 6.23,
+      "riskLevel": "medium",
+      "note": "Road closure on HMT Rd: Partial closure for drain works, one lane open (demo record) Severity 2 other reported (unverified). Unknown surface condition (demo value). Restriction data incomplete for this segment. Road width unknown."
+     },
+     {
+      "id": "S9",
+      "name": "NH 544 (Kalamassery\u2013Aluva)",
+      "distanceKm": 8.78,
+      "riskLevel": "low",
+      "note": null
+     }
+    ],
+    "distanceKm": 30.39,
+    "durationMin": 65.2,
+    "suitabilityStatus": "warning",
+    "recommended": true,
+    "isFastestCandidate": false,
+    "rank": 1,
+    "scoreSeconds": 5075,
+    "scoreBreakdown": {
+     "travelSeconds": 3915,
+     "severeDefectPenaltySeconds": 600,
+     "surfacePenaltySeconds": 560
+    },
+    "severeHazardCount": 1,
+    "warnings": [
+     {
+      "level": "warning",
+      "message": "Road closure on HMT Rd: Partial closure for drain works, one lane open (demo record)",
+      "segmentId": "S14",
+      "restrictionId": "R7",
+      "defectId": null
+     },
+     {
+      "level": "info",
+      "message": "Severity 5 pothole reported on Civil Line Rd (verified).",
+      "segmentId": "S13",
+      "restrictionId": null,
+      "defectId": "D6"
+     }
+    ],
+    "missingData": [
+     "Vehicle height, gross vehicle weight not provided",
+     "Restriction data incomplete on Willingdon Island Rd",
+     "Road width unknown on Willingdon Island Rd",
+     "Restriction data incomplete on HMT Rd",
+     "Road width unknown on HMT Rd"
+    ],
+    "rejectionReasons": [],
+    "explanation": "Route D (via Willingdon Island Rd, Banerji\u2013Kaloor Rd) is recommended because the faster Route A is blocked by a known restriction. It is about 13 min slower than Route A. Estimated 1 hr 5 min.",
+    "geometry": [
+     [
+      9.9658,
+      76.2421
+     ],
+     [
+      9.971425833333333,
+      76.247565
+     ],
+     [
+      9.976249828708317,
+      76.25334751979302
+     ],
+     [
+      9.979685000000002,
+      76.25967999999999
+     ],
+     [
+      9.981516495374983,
+      76.26664751979303
+     ],
+     [
+      9.981959166666666,
+      76.274165
+     ],
+     [
+      9.9816,
+      76.282
+     ],
+     [
+      9.983916666666666,
+      76.28723666666666
+     ],
+     [
+      9.986568269823872,
+      76.29218662769743
+     ],
+     [
+      9.989799999999999,
+      76.29664
+     ],
+     [
+      9.993701603157204,
+      76.30051996103076
+     ],
+     [
+      9.998183333333333,
+      76.30390333333334
+     ],
+     [
+      10.003,
+      76.307
+     ],
+     [
+      10.003754,
+      76.31333266666667
+     ],
+     [
+      10.004882057072635,
+      76.31952707155004
+     ],
+     [
+      10.006658000000002,
+      76.325482
+     ],
+     [
+      10.009182057072634,
+      76.33116040488336
+     ],
+     [
+      10.012354,
+      76.33659933333334
+     ],
+     [
+      10.0159,
+      76.3419
+     ],
+     [
+      10.020738333333334,
+      76.33556166666665
+     ],
+     [
+      10.025937058330488,
+      76.32972037908529
+     ],
+     [
+      10.03176,
+      76.32474
+     ],
+     [
+      10.038303724997155,
+      76.32075371241862
+     ],
+     [
+      10.045471666666668,
+      76.31762833333332
+     ],
+     [
+      10.053,
+      76.315
+     ],
+     [
+      10.063015000000002,
+      76.319735
+     ],
+     [
+      10.072784826488927,
+      76.32483575064768
+     ],
+     [
+      10.082130000000001,
+      76.33057000000001
+     ],
+     [
+      10.090984826488926,
+      76.33703575064767
+     ],
+     [
+      10.099415,
+      76.344135
+     ],
+     [
+      10.1076,
+      76.3516
+     ]
+    ]
+   },
+   "explanation": "Hypothetically, segment S7 (NH 66 (Palarivattom\u2013Edappally)) is closed. The recommendation would change from route S2 \u2192 S5 \u2192 S7 \u2192 S8 \u2192 S9 to route S2 \u2192 S5 \u2192 S13 \u2192 S14 \u2192 S9 (12.8 min longer) because the baseline route would change from warning to unsuitable (new constraint: Road closure on NH 66 (Palarivattom\u2013Edappally): Hypothetical closure (Route Autopsy scenario, not real)).",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-14",
+   "perturbation": {
+    "type": "close_segment",
+    "segmentId": "S8"
+   },
+   "description": "segment S8 (NH 544 (Edappally\u2013Kalamassery)) is closed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": true,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S13_S14_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "Civil Line Rd",
+     "HMT Rd",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S13",
+     "S14",
+     "S9"
+    ],
+    "durationMin": 65.2,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 12.8,
+   "changedVariables": [
+    {
+     "variable": "segment[S8].closure",
+     "from": "none",
+     "to": "hypothetical verified closure"
+    }
+   ],
+   "changedWarnings": {
+    "added": [
+     "Road closure on NH 544 (Edappally\u2013Kalamassery): Hypothetical closure (Route Autopsy scenario, not real)"
+    ],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "unsuitable",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S13_S14_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 65.2,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 30.39,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 5075,
+    "segmentsRemoved": [
+     "S7",
+     "S8"
+    ],
+    "segmentsAdded": [
+     "S13",
+     "S14"
+    ],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S13_S14_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S13",
+      "S14",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 5342
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": {
+    "routeId": "FKC-ALV-S2_S5_S13_S14_S9",
+    "label": "Route D",
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S13",
+     "S14",
+     "S9"
+    ],
+    "segments": [
+     {
+      "id": "S2",
+      "name": "Willingdon Island Rd",
+      "distanceKm": 5.95,
+      "riskLevel": "medium",
+      "note": "Severity 2 obstruction reported (unverified). Restriction data incomplete for this segment. Road width unknown."
+     },
+     {
+      "id": "S5",
+      "name": "Banerji\u2013Kaloor Rd",
+      "distanceKm": 4.46,
+      "riskLevel": "medium",
+      "note": "Severity 2 cracked road reported (verified)."
+     },
+     {
+      "id": "S13",
+      "name": "Civil Line Rd",
+      "distanceKm": 4.97,
+      "riskLevel": "high",
+      "note": "Severity 5 pothole reported on Civil Line Rd (verified)."
+     },
+     {
+      "id": "S14",
+      "name": "HMT Rd",
+      "distanceKm": 6.23,
+      "riskLevel": "medium",
+      "note": "Road closure on HMT Rd: Partial closure for drain works, one lane open (demo record) Severity 2 other reported (unverified). Unknown surface condition (demo value). Restriction data incomplete for this segment. Road width unknown."
+     },
+     {
+      "id": "S9",
+      "name": "NH 544 (Kalamassery\u2013Aluva)",
+      "distanceKm": 8.78,
+      "riskLevel": "low",
+      "note": null
+     }
+    ],
+    "distanceKm": 30.39,
+    "durationMin": 65.2,
+    "suitabilityStatus": "warning",
+    "recommended": true,
+    "isFastestCandidate": false,
+    "rank": 1,
+    "scoreSeconds": 5075,
+    "scoreBreakdown": {
+     "travelSeconds": 3915,
+     "severeDefectPenaltySeconds": 600,
+     "surfacePenaltySeconds": 560
+    },
+    "severeHazardCount": 1,
+    "warnings": [
+     {
+      "level": "warning",
+      "message": "Road closure on HMT Rd: Partial closure for drain works, one lane open (demo record)",
+      "segmentId": "S14",
+      "restrictionId": "R7",
+      "defectId": null
+     },
+     {
+      "level": "info",
+      "message": "Severity 5 pothole reported on Civil Line Rd (verified).",
+      "segmentId": "S13",
+      "restrictionId": null,
+      "defectId": "D6"
+     }
+    ],
+    "missingData": [
+     "Vehicle height, gross vehicle weight not provided",
+     "Restriction data incomplete on Willingdon Island Rd",
+     "Road width unknown on Willingdon Island Rd",
+     "Restriction data incomplete on HMT Rd",
+     "Road width unknown on HMT Rd"
+    ],
+    "rejectionReasons": [],
+    "explanation": "Route D (via Willingdon Island Rd, Banerji\u2013Kaloor Rd) is recommended because the faster Route A is blocked by a known restriction. It is about 13 min slower than Route A. Estimated 1 hr 5 min.",
+    "geometry": [
+     [
+      9.9658,
+      76.2421
+     ],
+     [
+      9.971425833333333,
+      76.247565
+     ],
+     [
+      9.976249828708317,
+      76.25334751979302
+     ],
+     [
+      9.979685000000002,
+      76.25967999999999
+     ],
+     [
+      9.981516495374983,
+      76.26664751979303
+     ],
+     [
+      9.981959166666666,
+      76.274165
+     ],
+     [
+      9.9816,
+      76.282
+     ],
+     [
+      9.983916666666666,
+      76.28723666666666
+     ],
+     [
+      9.986568269823872,
+      76.29218662769743
+     ],
+     [
+      9.989799999999999,
+      76.29664
+     ],
+     [
+      9.993701603157204,
+      76.30051996103076
+     ],
+     [
+      9.998183333333333,
+      76.30390333333334
+     ],
+     [
+      10.003,
+      76.307
+     ],
+     [
+      10.003754,
+      76.31333266666667
+     ],
+     [
+      10.004882057072635,
+      76.31952707155004
+     ],
+     [
+      10.006658000000002,
+      76.325482
+     ],
+     [
+      10.009182057072634,
+      76.33116040488336
+     ],
+     [
+      10.012354,
+      76.33659933333334
+     ],
+     [
+      10.0159,
+      76.3419
+     ],
+     [
+      10.020738333333334,
+      76.33556166666665
+     ],
+     [
+      10.025937058330488,
+      76.32972037908529
+     ],
+     [
+      10.03176,
+      76.32474
+     ],
+     [
+      10.038303724997155,
+      76.32075371241862
+     ],
+     [
+      10.045471666666668,
+      76.31762833333332
+     ],
+     [
+      10.053,
+      76.315
+     ],
+     [
+      10.063015000000002,
+      76.319735
+     ],
+     [
+      10.072784826488927,
+      76.32483575064768
+     ],
+     [
+      10.082130000000001,
+      76.33057000000001
+     ],
+     [
+      10.090984826488926,
+      76.33703575064767
+     ],
+     [
+      10.099415,
+      76.344135
+     ],
+     [
+      10.1076,
+      76.3516
+     ]
+    ]
+   },
+   "explanation": "Hypothetically, segment S8 (NH 544 (Edappally\u2013Kalamassery)) is closed. The recommendation would change from route S2 \u2192 S5 \u2192 S7 \u2192 S8 \u2192 S9 to route S2 \u2192 S5 \u2192 S13 \u2192 S14 \u2192 S9 (12.8 min longer) because the baseline route would change from warning to unsuitable (new constraint: Road closure on NH 544 (Edappally\u2013Kalamassery): Hypothetical closure (Route Autopsy scenario, not real)).",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-15",
+   "perturbation": {
+    "type": "close_segment",
+    "segmentId": "S9"
+   },
+   "description": "segment S9 (NH 544 (Kalamassery\u2013Aluva)) is closed",
+   "weight": 1.0,
+   "inputChanged": true,
+   "changed": true,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S13_S16",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "Civil Line Rd",
+     "Seaport\u2013Airport Rd (North)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S13",
+     "S16"
+    ],
+    "durationMin": 74.3,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 21.9,
+   "changedVariables": [
+    {
+     "variable": "segment[S9].closure",
+     "from": "none",
+     "to": "hypothetical verified closure"
+    }
+   ],
+   "changedWarnings": {
+    "added": [
+     "Road closure on NH 544 (Kalamassery\u2013Aluva): Hypothetical closure (Route Autopsy scenario, not real)"
+    ],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "unsuitable",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S13_S16",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 74.3,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 28.09,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 1,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 8108,
+    "segmentsRemoved": [
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "segmentsAdded": [
+     "S13",
+     "S16"
+    ],
+    "segmentsShared": [
+     "S2",
+     "S5"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S13_S16",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S13",
+      "S16"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 8375
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": {
+    "routeId": "FKC-ALV-S2_S5_S13_S16",
+    "label": "Route D",
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S13",
+     "S16"
+    ],
+    "segments": [
+     {
+      "id": "S2",
+      "name": "Willingdon Island Rd",
+      "distanceKm": 5.95,
+      "riskLevel": "medium",
+      "note": "Severity 2 obstruction reported (unverified). Restriction data incomplete for this segment. Road width unknown."
+     },
+     {
+      "id": "S5",
+      "name": "Banerji\u2013Kaloor Rd",
+      "distanceKm": 4.46,
+      "riskLevel": "medium",
+      "note": "Severity 2 cracked road reported (verified)."
+     },
+     {
+      "id": "S13",
+      "name": "Civil Line Rd",
+      "distanceKm": 4.97,
+      "riskLevel": "high",
+      "note": "Severity 5 pothole reported on Civil Line Rd (verified)."
+     },
+     {
+      "id": "S16",
+      "name": "Seaport\u2013Airport Rd (North)",
+      "distanceKm": 12.71,
+      "riskLevel": "medium",
+      "note": "Severity 3 damaged edge reported (unverified). Poor surface condition (demo value). Restriction data incomplete for this segment."
+     }
+    ],
+    "distanceKm": 28.09,
+    "durationMin": 74.3,
+    "suitabilityStatus": "warning",
+    "recommended": true,
+    "isFastestCandidate": false,
+    "rank": 1,
+    "scoreSeconds": 8108,
+    "scoreBreakdown": {
+     "travelSeconds": 4459,
+     "severeDefectPenaltySeconds": 600,
+     "surfacePenaltySeconds": 3050
+    },
+    "severeHazardCount": 1,
+    "warnings": [
+     {
+      "level": "info",
+      "message": "Severity 5 pothole reported on Civil Line Rd (verified).",
+      "segmentId": "S13",
+      "restrictionId": null,
+      "defectId": "D6"
+     }
+    ],
+    "missingData": [
+     "Vehicle height, gross vehicle weight not provided",
+     "Restriction data incomplete on Willingdon Island Rd",
+     "Road width unknown on Willingdon Island Rd",
+     "Restriction data incomplete on Seaport\u2013Airport Rd (North)"
+    ],
+    "rejectionReasons": [],
+    "explanation": "Route D (via Willingdon Island Rd, Banerji\u2013Kaloor Rd) is recommended because the faster Route A is blocked by a known restriction. It is about 22 min slower than Route A. Estimated 1 hr 14 min.",
+    "geometry": [
+     [
+      9.9658,
+      76.2421
+     ],
+     [
+      9.971425833333333,
+      76.247565
+     ],
+     [
+      9.976249828708317,
+      76.25334751979302
+     ],
+     [
+      9.979685000000002,
+      76.25967999999999
+     ],
+     [
+      9.981516495374983,
+      76.26664751979303
+     ],
+     [
+      9.981959166666666,
+      76.274165
+     ],
+     [
+      9.9816,
+      76.282
+     ],
+     [
+      9.983916666666666,
+      76.28723666666666
+     ],
+     [
+      9.986568269823872,
+      76.29218662769743
+     ],
+     [
+      9.989799999999999,
+      76.29664
+     ],
+     [
+      9.993701603157204,
+      76.30051996103076
+     ],
+     [
+      9.998183333333333,
+      76.30390333333334
+     ],
+     [
+      10.003,
+      76.307
+     ],
+     [
+      10.003754,
+      76.31333266666667
+     ],
+     [
+      10.004882057072635,
+      76.31952707155004
+     ],
+     [
+      10.006658000000002,
+      76.325482
+     ],
+     [
+      10.009182057072634,
+      76.33116040488336
+     ],
+     [
+      10.012354,
+      76.33659933333334
+     ],
+     [
+      10.0159,
+      76.3419
+     ],
+     [
+      10.030601333333331,
+      76.34901866666667
+     ],
+     [
+      10.045458613096661,
+      76.35466307687658
+     ],
+     [
+      10.060585999999999,
+      76.357754
+     ],
+     [
+      10.076025279763327,
+      76.3578964102099
+     ],
+     [
+      10.091734666666666,
+      76.35548533333335
+     ],
+     [
+      10.1076,
+      76.3516
+     ]
+    ]
+   },
+   "explanation": "Hypothetically, segment S9 (NH 544 (Kalamassery\u2013Aluva)) is closed. The recommendation would change from route S2 \u2192 S5 \u2192 S7 \u2192 S8 \u2192 S9 to route S2 \u2192 S5 \u2192 S13 \u2192 S16 (21.9 min longer) because the baseline route would change from warning to unsuitable (new constraint: Road closure on NH 544 (Kalamassery\u2013Aluva): Hypothetical closure (Route Autopsy scenario, not real)).",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-16",
+   "perturbation": {
+    "type": "set_vehicle_width",
+    "widthM": 1.8
+   },
+   "description": "vehicle width is 1.8 m",
+   "weight": 0.5,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "vehicle.widthM",
+     "from": 2.0,
+     "to": 1.8
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 52.4,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 26.03,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3144,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, vehicle width is 1.8 m. The recommended route is unchanged. Its score lead over the runner-up stays at 267 s.",
+   "notes": []
+  },
+  {
+   "scenarioId": "sc-17",
+   "perturbation": {
+    "type": "set_vehicle_width",
+    "widthM": 2.2
+   },
+   "description": "vehicle width is 2.2 m",
+   "weight": 0.5,
+   "inputChanged": true,
+   "changed": false,
+   "skipped": false,
+   "baselineRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "revisedRecommendation": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "via": [
+     "Willingdon Island Rd",
+     "Banerji\u2013Kaloor Rd",
+     "NH 66 (Palarivattom\u2013Edappally)",
+     "NH 544 (Edappally\u2013Kalamassery)",
+     "NH 544 (Kalamassery\u2013Aluva)"
+    ],
+    "segmentIds": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "durationMin": 52.4,
+    "suitabilityStatus": "warning"
+   },
+   "deltaDurationMin": 0.0,
+   "changedVariables": [
+    {
+     "variable": "vehicle.widthM",
+     "from": 2.0,
+     "to": 2.2
+    }
+   ],
+   "changedWarnings": {
+    "added": [],
+    "removed": []
+   },
+   "baselineRouteUnderScenario": {
+    "routeId": "FKC-ALV-S2_S5_S7_S8_S9",
+    "statusBefore": "warning",
+    "statusAfter": "warning",
+    "durationSecondsBefore": 3144,
+    "durationSecondsAfter": 3144
+   },
+   "comparison": {
+    "routeIdBefore": "FKC-ALV-S2_S5_S7_S8_S9",
+    "routeIdAfter": "FKC-ALV-S2_S5_S7_S8_S9",
+    "durationMinBefore": 52.4,
+    "durationMinAfter": 52.4,
+    "distanceKmBefore": 26.03,
+    "distanceKmAfter": 26.03,
+    "suitabilityBefore": "warning",
+    "suitabilityAfter": "warning",
+    "severeHazardsBefore": 0,
+    "severeHazardsAfter": 0,
+    "scoreSecondsBefore": 3144,
+    "scoreSecondsAfter": 3144,
+    "segmentsRemoved": [],
+    "segmentsAdded": [],
+    "segmentsShared": [
+     "S2",
+     "S5",
+     "S7",
+     "S8",
+     "S9"
+    ],
+    "baselineRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "revisedRunnerUp": {
+     "routeId": "FKC-ALV-S1_S3_S5_S7_S8_S9",
+     "segmentIds": [
+      "S1",
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S9"
+     ],
+     "suitabilityStatus": "warning",
+     "scoreSeconds": 3411
+    },
+    "baselineMarginSeconds": 267,
+    "revisedMarginSeconds": 267
+   },
+   "revisedRoute": null,
+   "explanation": "Hypothetically, vehicle width is 2.2 m. The recommended route is unchanged. Its score lead over the runner-up stays at 267 s.",
+   "notes": []
+  }
+ ],
+ "sensitivity": {
+  "scenariosTested": 17,
+  "scenariosChanged": 6,
+  "scenariosSkipped": 0,
+  "sensitivityScore": 0.375,
+  "totalWeight": 16.0,
+  "changedWeight": 6.0,
+  "changedScenarioIds": [
+   "sc-03",
+   "sc-11",
+   "sc-12",
+   "sc-13",
+   "sc-14",
+   "sc-15"
+  ],
+  "formula": "F = sum(weight_i for perturbations that change the selected recommendation) / sum(weight_i for all tested perturbations)",
+  "interpretation": "F measures how fragile the route recommendation is to the tested changes in evidence. It is not an accident probability, a failure probability, or a verified road-safety risk."
+ },
+ "suite": {
+  "description": "Perturbations generated from evidence touching the evaluated alternatives: resolve severity>=4 defects (only these affect scoring); remove / verify / un-verify applicable restrictions; close each segment of the recommended route; vehicle height, width and weight at +/-10% where known. Defect verification state is not a routing input and is therefore not in the default suite.",
+  "generated": 17,
+  "truncated": false,
+  "vehicleSpecsSkippedBecauseUnknown": [
+   "heightM",
+   "currentLoadedWeightKg"
+  ]
+ },
+ "explanation": "Baseline recommendation: route S2 \u2192 S5 \u2192 S7 \u2192 S8 \u2192 S9 (warning, 52.4 min). 6 of 17 tested hypothetical changes would change the recommendation (weighted sensitivity 0.38). F measures how fragile the route recommendation is to the tested changes in evidence. It is not an accident probability, a failure probability, or a verified road-safety risk.",
+ "disclaimer": "Illustrative Kochi pilot graph, restrictions and defects (demo data). Not surveyed, not live, and not suitable for real-world navigation. 'riskLevel' is an evidence-attention heuristic, not a probability of accident or failure."
+}

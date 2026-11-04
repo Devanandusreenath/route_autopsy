@@ -1,0 +1,8 @@
+{
+  "name": "route-autopsy-e2e",
+  "private": true,
+  "type": "module",
+  "description": "Browser end-to-end checks. Separate from the app so its ~70 MB browser download is optional.",
+  "scripts": { "test": "node e2e.mjs" },
+  "dependencies": { "@sparticuz/chromium": "^138.0.0", "puppeteer-core": "^24.0.0" }
+}

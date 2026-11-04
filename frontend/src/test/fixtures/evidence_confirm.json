@@ -1,0 +1,21 @@
+{
+ "evidenceId": "EV-B7807B7F8C",
+ "status": "defects_created",
+ "results": [
+  {
+   "observationId": "obs-1",
+   "outcome": "defect_created",
+   "defectId": "U-D3E25211",
+   "verificationStatus": "unverified",
+   "message": "Defect report created through the existing workflow. It remains unverified until an authorized check."
+  },
+  {
+   "observationId": "obs-2",
+   "outcome": "restriction_not_confirmed",
+   "defectId": null,
+   "verificationStatus": "unverified",
+   "message": "Recorded as an unverified candidate only. Restrictions and closures can be verified only through an authorized verification workflow, which this API does not offer; routing is unaffected."
+  }
+ ],
+ "disclaimer": "Observations are CANDIDATES produced by an AI vision model from a single photo. Visual confidence is not verification. Nothing here is verified, no location or clearance is inferred, and restrictions can only be verified through an authorized workflow."
+}

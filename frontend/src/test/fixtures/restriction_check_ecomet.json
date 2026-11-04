@@ -1,0 +1,113 @@
+{
+ "vehicleId": "veh-ecomet",
+ "vehicleName": "Ashok Leyland Ecomet 2022 1615 HE",
+ "unknownSpecs": [],
+ "summary": {
+  "blocks": 3,
+  "may_block": 2,
+  "unknown_spec": 0,
+  "fits": 2,
+  "not_applicable": 0
+ },
+ "items": [
+  {
+   "restrictionId": "R1",
+   "roadSegmentId": "S1",
+   "segmentName": "Thoppumpady Old Bridge Rd",
+   "restrictionType": "weight",
+   "description": "Old bridge load limit (demo record)",
+   "limitValue": 10.0,
+   "unit": "t",
+   "verificationStatus": "verified",
+   "appliesToVehicle": true,
+   "vehicleValue": 14.0,
+   "outcome": "blocks",
+   "message": "Vehicle 14.00 t exceeds the verified 10 t limit."
+  },
+  {
+   "restrictionId": "R2",
+   "roadSegmentId": "S12",
+   "segmentName": "Thammanam\u2013Kakkanad Link (rail underpass)",
+   "restrictionType": "height",
+   "description": "Railway underpass clearance (demo record)",
+   "limitValue": 3.2,
+   "unit": "m",
+   "verificationStatus": "verified",
+   "appliesToVehicle": true,
+   "vehicleValue": 3.3,
+   "outcome": "blocks",
+   "message": "Vehicle 3.30 m exceeds the verified 3.2 m limit."
+  },
+  {
+   "restrictionId": "R3",
+   "roadSegmentId": "S12",
+   "segmentName": "Thammanam\u2013Kakkanad Link (rail underpass)",
+   "restrictionType": "width",
+   "description": "Narrow carriageway at underpass (demo record)",
+   "limitValue": 2.3,
+   "unit": "m",
+   "verificationStatus": "verified",
+   "appliesToVehicle": true,
+   "vehicleValue": 2.5,
+   "outcome": "blocks",
+   "message": "Vehicle 2.50 m exceeds the verified 2.3 m limit."
+  },
+  {
+   "restrictionId": "R4",
+   "roadSegmentId": "S16",
+   "segmentName": "Seaport\u2013Airport Rd (North)",
+   "restrictionType": "access",
+   "description": "Reported heavy-vehicle entry ban 08:00\u201320:00 (unconfirmed)",
+   "limitValue": null,
+   "unit": null,
+   "verificationStatus": "unverified",
+   "appliesToVehicle": true,
+   "vehicleValue": null,
+   "outcome": "may_block",
+   "message": "Access restriction: Reported heavy-vehicle entry ban 08:00\u201320:00 (unconfirmed) (unverified)"
+  },
+  {
+   "restrictionId": "R5",
+   "roadSegmentId": "S2",
+   "segmentName": "Willingdon Island Rd",
+   "restrictionType": "length",
+   "description": "Tight turn near port gate, vehicles over 10 m (unconfirmed)",
+   "limitValue": 10.0,
+   "unit": "m",
+   "verificationStatus": "unverified",
+   "appliesToVehicle": true,
+   "vehicleValue": 8.6,
+   "outcome": "fits",
+   "message": "Vehicle 8.60 m is within the 10 m limit."
+  },
+  {
+   "restrictionId": "R6",
+   "roadSegmentId": "S15",
+   "segmentName": "Edappally\u2013Kakkanad Rd",
+   "restrictionType": "weight",
+   "description": "Culvert load limit (demo record)",
+   "limitValue": 20.0,
+   "unit": "t",
+   "verificationStatus": "verified",
+   "appliesToVehicle": true,
+   "vehicleValue": 14.0,
+   "outcome": "fits",
+   "message": "Vehicle 14.00 t is within the 20 t limit."
+  },
+  {
+   "restrictionId": "R7",
+   "roadSegmentId": "S14",
+   "segmentName": "HMT Rd",
+   "restrictionType": "closure",
+   "description": "Partial closure for drain works, one lane open (demo record)",
+   "limitValue": null,
+   "unit": null,
+   "verificationStatus": "unverified",
+   "appliesToVehicle": true,
+   "vehicleValue": null,
+   "outcome": "may_block",
+   "message": "Road closure: Partial closure for drain works, one lane open (demo record) (unverified)"
+  }
+ ],
+ "disclaimer": "Illustrative Kochi pilot graph, restrictions and defects (demo data). Not surveyed, not live, and not suitable for real-world navigation. 'riskLevel' is an evidence-attention heuristic, not a probability of accident or failure."
+}

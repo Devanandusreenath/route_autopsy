@@ -1,0 +1,68 @@
+{
+ "evidenceId": "EV-B7807B7F8C",
+ "createdAt": "2026-11-01T15:22:58.333235+00:00",
+ "modelProvider": "meta_model_api",
+ "model": "fixture-model",
+ "location": {
+  "status": "user_provided",
+  "latitude": 10.0,
+  "longitude": 76.3,
+  "note": "Location was supplied by the uploader, not inferred from the image."
+ },
+ "imageQuality": "good",
+ "observations": [
+  {
+   "id": "obs-1",
+   "observationType": "pothole",
+   "candidateCategory": "defect",
+   "suggestedDefectType": "pothole",
+   "description": "Deep pothole in the left lane.",
+   "severityEstimate": 4,
+   "visualConfidence": 0.9,
+   "observedAttributes": {
+    "approxSize": "large"
+   },
+   "unknownAttributes": [
+    "road dimensions and vehicle clearance"
+   ],
+   "verificationStatus": "unverified",
+   "requiresAuthorizedVerification": false,
+   "source": "image_upload",
+   "modelProvider": "meta_model_api",
+   "model": "fixture-model",
+   "observedAt": "2026-11-01T15:22:58.333235+00:00",
+   "modelExtras": {},
+   "discardedModelFields": []
+  },
+  {
+   "id": "obs-2",
+   "observationType": "restriction_sign",
+   "candidateCategory": "restriction_candidate",
+   "suggestedDefectType": null,
+   "description": "Sign that appears to show a height limit.",
+   "severityEstimate": null,
+   "visualConfidence": 0.8,
+   "observedAttributes": {
+    "signText": "3.5m"
+   },
+   "unknownAttributes": [
+    "legal or official validity",
+    "road dimensions and vehicle clearance"
+   ],
+   "verificationStatus": "unverified",
+   "requiresAuthorizedVerification": true,
+   "source": "image_upload",
+   "modelProvider": "meta_model_api",
+   "model": "fixture-model",
+   "observedAt": "2026-11-01T15:22:58.333235+00:00",
+   "modelExtras": {
+    "extraThing": 1
+   },
+   "discardedModelFields": []
+  }
+ ],
+ "warnings": [],
+ "duplicateOf": null,
+ "modelExtras": {},
+ "disclaimer": "Observations are CANDIDATES produced by an AI vision model from a single photo. Visual confidence is not verification. Nothing here is verified, no location or clearance is inferred, and restrictions can only be verified through an authorized workflow."
+}

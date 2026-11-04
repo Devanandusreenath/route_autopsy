@@ -1,0 +1,88 @@
+[
+ {
+  "id": "R1",
+  "roadSegmentId": "S1",
+  "restrictionType": "weight",
+  "limitValue": 10,
+  "unit": "t",
+  "appliesTo": "all",
+  "description": "Old bridge load limit (demo record)",
+  "source": "Demo dataset \u2014 illustrative",
+  "verificationStatus": "verified",
+  "lastVerifiedAt": "2026-08-14T00:00:00Z"
+ },
+ {
+  "id": "R2",
+  "roadSegmentId": "S12",
+  "restrictionType": "height",
+  "limitValue": 3.2,
+  "unit": "m",
+  "appliesTo": "all",
+  "description": "Railway underpass clearance (demo record)",
+  "source": "Demo dataset \u2014 illustrative",
+  "verificationStatus": "verified",
+  "lastVerifiedAt": "2026-07-02T00:00:00Z"
+ },
+ {
+  "id": "R3",
+  "roadSegmentId": "S12",
+  "restrictionType": "width",
+  "limitValue": 2.3,
+  "unit": "m",
+  "appliesTo": "all",
+  "description": "Narrow carriageway at underpass (demo record)",
+  "source": "Demo dataset \u2014 illustrative",
+  "verificationStatus": "verified",
+  "lastVerifiedAt": "2026-07-02T00:00:00Z"
+ },
+ {
+  "id": "R4",
+  "roadSegmentId": "S16",
+  "restrictionType": "access",
+  "limitValue": null,
+  "unit": null,
+  "appliesTo": [
+   "heavy_truck"
+  ],
+  "description": "Reported heavy-vehicle entry ban 08:00\u201320:00 (unconfirmed)",
+  "source": "Community report \u2014 unverified",
+  "verificationStatus": "unverified",
+  "lastVerifiedAt": null
+ },
+ {
+  "id": "R5",
+  "roadSegmentId": "S2",
+  "restrictionType": "length",
+  "limitValue": 10,
+  "unit": "m",
+  "appliesTo": "all",
+  "description": "Tight turn near port gate, vehicles over 10 m (unconfirmed)",
+  "source": "Community report \u2014 unverified",
+  "verificationStatus": "unverified",
+  "lastVerifiedAt": null
+ },
+ {
+  "id": "R6",
+  "roadSegmentId": "S15",
+  "restrictionType": "weight",
+  "limitValue": 20,
+  "unit": "t",
+  "appliesTo": "all",
+  "description": "Culvert load limit (demo record)",
+  "source": "Demo dataset \u2014 illustrative",
+  "verificationStatus": "verified",
+  "lastVerifiedAt": "2026-06-20T00:00:00Z"
+ },
+ {
+  "id": "R7",
+  "roadSegmentId": "S14",
+  "restrictionType": "closure",
+  "limitValue": null,
+  "unit": null,
+  "appliesTo": "all",
+  "description": "Partial closure for drain works, one lane open (demo record)",
+  "source": "Demo dataset \u2014 illustrative",
+  "verificationStatus": "unverified",
+  "lastVerifiedAt": null
+ }
+]
